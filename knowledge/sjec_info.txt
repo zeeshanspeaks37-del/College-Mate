@@ -2488,6 +2488,1058 @@ the information must be treated as DEMO / SIMULATED DATA
 and should not be presented as verified real-world college
 information.
 
+
+COLLEGE MATE — COMPLETE SIMULATED TIMETABLE DATABASE
+============================================================
+
+!!! SIMULATED / DEMO DATA ONLY !!!
+
+All timetable information in this section is fictional demo data
+created for the College Mate hackathon prototype.
+
+The following are NOT official college records:
+- Faculty names
+- Subjects
+- Timings
+- Rooms
+- Branch schedules
+- Sections
+- Faculty assignments
+
+College Mate must never claim this information is official.
+
+============================================================
+SUPPORTED BRANCHES
+============================================================
+
+1. Computer Science and Engineering (CSE)
+2. Information Science and Engineering (ISE)
+3. Electronics and Communication Engineering (ECE)
+4. Electrical and Electronics Engineering (EEE)
+5. Mechanical Engineering
+6. Civil Engineering
+7. Robotics and Automation
+
+============================================================
+SUPPORTED YEARS
+============================================================
+
+1st Year
+2nd Year
+3rd Year
+4th Year
+
+Supported sections:
+Section A
+Section B
+
+============================================================
+STANDARD SIMULATED COLLEGE TIMINGS
+============================================================
+
+08:00 AM - 08:50 AM  Period 1
+08:50 AM - 09:40 AM  Period 2
+09:40 AM - 10:30 AM  Period 3
+10:30 AM - 10:45 AM  Short Break
+10:45 AM - 11:35 AM  Period 4
+11:35 AM - 12:25 PM  Period 5
+12:25 PM - 01:15 PM  Period 6
+01:15 PM - 02:00 PM  Lunch Break
+02:00 PM - 02:50 PM  Period 7
+02:50 PM - 03:40 PM  Period 8
+03:40 PM - 04:30 PM  Period 9
+04:30 PM - 05:20 PM  Period 10
+
+============================================================
+HOW "CURRENT CLASS" QUESTIONS WORK
+============================================================
+
+When a student provides a time, College Mate should identify the
+period covering that time.
+
+Example:
+
+Student:
+"It is 9:15 AM. What class is going on?"
+
+College Mate should find the 08:50 AM - 09:40 AM period.
+
+Student:
+"It is 10:35 AM. What class is going on?"
+
+College Mate should say that the student is currently on the
+10:30 AM - 10:45 AM short break.
+
+Student:
+"It is 1:30 PM. What class is going on?"
+
+College Mate should say that the student is currently on lunch
+break.
+
+Student:
+"It is 4:45 PM. What class is going on?"
+
+College Mate should identify Period 10.
+
+============================================================
+FACULTY DIRECTORY — SIMULATED
+============================================================
+
+CSE FACULTY
+Dr. Ananya Rao
+Prof. Rahul Menon
+Prof. Kavya Nair
+Dr. Arjun Shetty
+Prof. Neha Joseph
+Prof. Vivek Kumar
+Dr. Rohan Mathew
+Prof. Sneha Bhat
+
+ISE FACULTY
+Dr. Meera Nair
+Prof. Aditya Rao
+Prof. Priya Menon
+Dr. Kiran Shetty
+Prof. Asha Joseph
+Prof. Nikhil Bhat
+Dr. Varun Kumar
+Prof. Riya Thomas
+
+ECE FACULTY
+Dr. Vikram Rao
+Prof. Diya Nair
+Prof. Manoj Joseph
+Dr. Shreya Menon
+Prof. Akash Bhat
+Prof. Tanya Mathew
+Dr. Rohit Shetty
+Prof. Isha Kumar
+
+EEE FACULTY
+Dr. Suresh Rao
+Prof. Nandini Nair
+Prof. Ajay Menon
+Dr. Pooja Joseph
+Prof. Karthik Bhat
+Prof. Ramesh Kumar
+Dr. Divya Shetty
+Prof. Anil Mathew
+
+MECHANICAL FACULTY
+Dr. Sanjay Rao
+Prof. Deepak Nair
+Prof. Anjali Menon
+Dr. Harish Joseph
+Prof. Naveen Bhat
+Prof. Swati Kumar
+Dr. Manoj Shetty
+Prof. Rekha Mathew
+
+CIVIL FACULTY
+Dr. Prakash Rao
+Prof. Shalini Nair
+Prof. Abhishek Menon
+Dr. Mahesh Joseph
+Prof. Nisha Bhat
+Prof. Arun Kumar
+Dr. Kavitha Shetty
+Prof. Sameer Mathew
+
+ROBOTICS FACULTY
+Dr. Rakesh Rao
+Prof. Divya Nair
+Dr. Arvind Menon
+Prof. Keerthi Joseph
+Prof. Akhil Bhat
+Dr. Sneha Kumar
+Prof. Rohit Mathew
+Dr. Pavan Shetty
+
+
+============================================================
+CSE — 1ST YEAR — SECTION A
+============================================================
+
+MONDAY
+08:00-08:50 Engineering Mathematics I — Dr. Ananya Rao — CSE-101
+08:50-09:40 Programming in C — Prof. Rahul Menon — CSE-101
+09:40-10:30 Engineering Physics — Prof. Kavya Nair — PHY-201
+10:30-10:45 SHORT BREAK
+10:45-11:35 Engineering Physics — Prof. Kavya Nair — PHY-201
+11:35-12:25 Engineering Chemistry — Dr. Arjun Shetty — CHM-101
+12:25-01:15 Communication Skills — Prof. Neha Joseph — HUM-102
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Programming Lab — Prof. Rahul Menon — CSE-LAB-1
+02:50-03:40 Programming Lab — Prof. Rahul Menon — CSE-LAB-1
+03:40-04:30 Programming Lab — Prof. Rahul Menon — CSE-LAB-1
+04:30-05:20 Mathematics Tutorial — Dr. Ananya Rao — CSE-101
+
+TUESDAY
+08:00-08:50 Engineering Chemistry — Dr. Arjun Shetty — CHM-101
+08:50-09:40 Engineering Mathematics I — Dr. Ananya Rao — CSE-101
+09:40-10:30 Basic Electronics — Prof. Vivek Kumar — ECE-102
+10:30-10:45 SHORT BREAK
+10:45-11:35 Basic Electronics — Prof. Vivek Kumar — ECE-102
+11:35-12:25 Programming in C — Prof. Rahul Menon — CSE-101
+12:25-01:15 Communication Skills — Prof. Neha Joseph — HUM-102
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Engineering Drawing — Dr. Rohan Mathew — DRAW-201
+02:50-03:40 Engineering Drawing — Dr. Rohan Mathew — DRAW-201
+03:40-04:30 Engineering Drawing — Dr. Rohan Mathew — DRAW-201
+04:30-05:20 Club Activity — Prof. Sneha Bhat — ACT-101
+
+WEDNESDAY
+08:00-08:50 Programming in C — Prof. Rahul Menon — CSE-101
+08:50-09:40 Mathematics I — Dr. Ananya Rao — CSE-101
+09:40-10:30 Engineering Physics — Prof. Kavya Nair — PHY-201
+10:30-10:45 SHORT BREAK
+10:45-11:35 Mathematics I — Dr. Ananya Rao — CSE-101
+11:35-12:25 Basic Electronics — Prof. Vivek Kumar — ECE-102
+12:25-01:15 Engineering Chemistry — Dr. Arjun Shetty — CHM-101
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Physics Lab — Prof. Kavya Nair — PHY-LAB
+02:50-03:40 Physics Lab — Prof. Kavya Nair — PHY-LAB
+03:40-04:30 Physics Lab — Prof. Kavya Nair — PHY-LAB
+04:30-05:20 Sports Activity — Sports Coordinator — SPORTS
+
+THURSDAY
+08:00-08:50 Communication Skills — Prof. Neha Joseph — HUM-102
+08:50-09:40 Programming in C — Prof. Rahul Menon — CSE-101
+09:40-10:30 Mathematics I — Dr. Ananya Rao — CSE-101
+10:30-10:45 SHORT BREAK
+10:45-11:35 Engineering Chemistry — Dr. Arjun Shetty — CHM-101
+11:35-12:25 Engineering Physics — Prof. Kavya Nair — PHY-201
+12:25-01:15 Basic Electronics — Prof. Vivek Kumar — ECE-102
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Programming Lab — Prof. Rahul Menon — CSE-LAB-1
+02:50-03:40 Programming Lab — Prof. Rahul Menon — CSE-LAB-1
+03:40-04:30 Programming Lab — Prof. Rahul Menon — CSE-LAB-1
+04:30-05:20 Class Advisor Hour — Prof. Neha Joseph — CSE-101
+
+FRIDAY
+08:00-08:50 Mathematics I — Dr. Ananya Rao — CSE-101
+08:50-09:40 Engineering Chemistry — Dr. Arjun Shetty — CHM-101
+09:40-10:30 Programming in C — Prof. Rahul Menon — CSE-101
+10:30-10:45 SHORT BREAK
+10:45-11:35 Engineering Physics — Prof. Kavya Nair — PHY-201
+11:35-12:25 Basic Electronics — Prof. Vivek Kumar — ECE-102
+12:25-01:15 Communication Skills — Prof. Neha Joseph — HUM-102
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Technical Activity — Dr. Rohan Mathew — CSE-101
+02:50-03:40 Technical Activity — Dr. Rohan Mathew — CSE-101
+03:40-04:30 Innovation Hour — Prof. Sneha Bhat — INNO-101
+04:30-05:20 Sports Activity — Sports Coordinator — SPORTS
+
+
+============================================================
+CSE — 1ST YEAR — SECTION B
+============================================================
+
+MONDAY
+08:00-08:50 Mathematics I — Dr. Ananya Rao — CSE-102
+08:50-09:40 Engineering Physics — Prof. Kavya Nair — PHY-202
+09:40-10:30 Programming in C — Prof. Rahul Menon — CSE-102
+10:30-10:45 SHORT BREAK
+10:45-11:35 Chemistry — Dr. Arjun Shetty — CHM-102
+11:35-12:25 Mathematics I — Dr. Ananya Rao — CSE-102
+12:25-01:15 Communication Skills — Prof. Neha Joseph — HUM-103
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Programming Lab — Prof. Rahul Menon — CSE-LAB-2
+02:50-03:40 Programming Lab — Prof. Rahul Menon — CSE-LAB-2
+03:40-04:30 Programming Lab — Prof. Rahul Menon — CSE-LAB-2
+04:30-05:20 Mentor Hour — Prof. Sneha Bhat — CSE-102
+
+TUESDAY
+08:00-08:50 Basic Electronics — Prof. Vivek Kumar — ECE-103
+08:50-09:40 Chemistry — Dr. Arjun Shetty — CHM-102
+09:40-10:30 Mathematics I — Dr. Ananya Rao — CSE-102
+10:30-10:45 SHORT BREAK
+10:45-11:35 Programming in C — Prof. Rahul Menon — CSE-102
+11:35-12:25 Physics — Prof. Kavya Nair — PHY-202
+12:25-01:15 Communication Skills — Prof. Neha Joseph — HUM-103
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Engineering Drawing — Dr. Rohan Mathew — DRAW-202
+02:50-03:40 Engineering Drawing — Dr. Rohan Mathew — DRAW-202
+03:40-04:30 Engineering Drawing — Dr. Rohan Mathew — DRAW-202
+04:30-05:20 Club Activity — Prof. Sneha Bhat — ACT-102
+
+
+============================================================
+CSE — 2ND YEAR — SECTION A
+============================================================
+
+MONDAY
+08:00-08:50 Data Structures — Prof. Rahul Menon — CSE-201
+08:50-09:40 Object Oriented Programming — Dr. Rohan Mathew — CSE-201
+09:40-10:30 Discrete Mathematics — Dr. Ananya Rao — CSE-201
+10:30-10:45 SHORT BREAK
+10:45-11:35 Computer Organization — Prof. Vivek Kumar — CSE-202
+11:35-12:25 Data Structures — Prof. Rahul Menon — CSE-201
+12:25-01:15 Operating Systems — Prof. Sneha Bhat — CSE-202
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Data Structures Lab — Prof. Rahul Menon — CSE-LAB-2
+02:50-03:40 Data Structures Lab — Prof. Rahul Menon — CSE-LAB-2
+03:40-04:30 Data Structures Lab — Prof. Rahul Menon — CSE-LAB-2
+04:30-05:20 Mentor Hour — Prof. Sneha Bhat — CSE-202
+
+TUESDAY
+08:00-08:50 Operating Systems — Prof. Sneha Bhat — CSE-202
+08:50-09:40 Database Management Systems — Dr. Arjun Shetty — CSE-203
+09:40-10:30 Computer Organization — Prof. Vivek Kumar — CSE-202
+10:30-10:45 SHORT BREAK
+10:45-11:35 OOP — Dr. Rohan Mathew — CSE-201
+11:35-12:25 Discrete Mathematics — Dr. Ananya Rao — CSE-201
+12:25-01:15 DBMS — Dr. Arjun Shetty — CSE-203
+01:15-02:00 LUNCH BREAK
+02:00-02:50 OOP Lab — Dr. Rohan Mathew — CSE-LAB-2
+02:50-03:40 OOP Lab — Dr. Rohan Mathew — CSE-LAB-2
+03:40-04:30 OOP Lab — Dr. Rohan Mathew — CSE-LAB-2
+04:30-05:20 Technical Activity — Prof. Vivek Kumar — CSE-202
+
+
+============================================================
+CSE — 2ND YEAR — SECTION B
+============================================================
+
+MONDAY
+08:00-08:50 DBMS — Dr. Arjun Shetty — CSE-204
+08:50-09:40 Data Structures — Prof. Rahul Menon — CSE-204
+09:40-10:30 Operating Systems — Prof. Sneha Bhat — CSE-205
+10:30-10:45 SHORT BREAK
+10:45-11:35 Discrete Mathematics — Dr. Ananya Rao — CSE-204
+11:35-12:25 OOP — Dr. Rohan Mathew — CSE-205
+12:25-01:15 Computer Organization — Prof. Vivek Kumar — CSE-205
+01:15-02:00 LUNCH BREAK
+02:00-02:50 OOP Lab — Dr. Rohan Mathew — CSE-LAB-3
+02:50-03:40 OOP Lab — Dr. Rohan Mathew — CSE-LAB-3
+03:40-04:30 OOP Lab — Dr. Rohan Mathew — CSE-LAB-3
+04:30-05:20 Mentor Hour — Prof. Sneha Bhat — CSE-205
+
+
+============================================================
+CSE — 3RD YEAR — SECTION A
+============================================================
+
+MONDAY
+08:00-08:50 Computer Networks — Prof. Vivek Kumar — CSE-301
+08:50-09:40 Operating Systems — Prof. Sneha Bhat — CSE-301
+09:40-10:30 Database Systems — Dr. Arjun Shetty — CSE-302
+10:30-10:45 SHORT BREAK
+10:45-11:35 Machine Learning — Dr. Rohan Mathew — CSE-302
+11:35-12:25 Web Technologies — Prof. Rahul Menon — CSE-301
+12:25-01:15 Software Engineering — Prof. Neha Joseph — CSE-302
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Machine Learning Lab — Dr. Rohan Mathew — AI-LAB-1
+02:50-03:40 Machine Learning Lab — Dr. Rohan Mathew — AI-LAB-1
+03:40-04:30 Machine Learning Lab — Dr. Rohan Mathew — AI-LAB-1
+04:30-05:20 Project Discussion — Prof. Neha Joseph — CSE-302
+
+TUESDAY
+08:00-08:50 Web Technologies — Prof. Rahul Menon — CSE-301
+08:50-09:40 Computer Networks — Prof. Vivek Kumar — CSE-301
+09:40-10:30 Machine Learning — Dr. Rohan Mathew — CSE-302
+10:30-10:45 SHORT BREAK
+10:45-11:35 Software Engineering — Prof. Neha Joseph — CSE-302
+11:35-12:25 Operating Systems — Prof. Sneha Bhat — CSE-301
+12:25-01:15 Elective I — Assigned Faculty — CSE-302
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Web Technology Lab — Prof. Rahul Menon — CSE-LAB-3
+02:50-03:40 Web Technology Lab — Prof. Rahul Menon — CSE-LAB-3
+03:40-04:30 Web Technology Lab — Prof. Rahul Menon — CSE-LAB-3
+04:30-05:20 Club / Innovation — Prof. Neha Joseph — INNO-101
+
+
+============================================================
+CSE — 3RD YEAR — SECTION B
+============================================================
+
+MONDAY
+08:00-08:50 Machine Learning — Dr. Rohan Mathew — CSE-303
+08:50-09:40 Computer Networks — Prof. Vivek Kumar — CSE-303
+09:40-10:30 Web Technologies — Prof. Rahul Menon — CSE-304
+10:30-10:45 SHORT BREAK
+10:45-11:35 Operating Systems — Prof. Sneha Bhat — CSE-303
+11:35-12:25 Software Engineering — Prof. Neha Joseph — CSE-304
+12:25-01:15 Database Systems — Dr. Arjun Shetty — CSE-304
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Computer Networks Lab — Prof. Vivek Kumar — NET-LAB
+02:50-03:40 Computer Networks Lab — Prof. Vivek Kumar — NET-LAB
+03:40-04:30 Computer Networks Lab — Prof. Vivek Kumar — NET-LAB
+04:30-05:20 Project Hour — Prof. Neha Joseph — CSE-304
+
+
+============================================================
+CSE — 4TH YEAR — SECTION A
+============================================================
+
+MONDAY
+08:00-08:50 Artificial Intelligence — Dr. Rohan Mathew — CSE-401
+08:50-09:40 Cloud Computing — Prof. Vivek Kumar — CSE-401
+09:40-10:30 Cyber Security — Prof. Sneha Bhat — CSE-402
+10:30-10:45 SHORT BREAK
+10:45-11:35 Big Data Analytics — Dr. Arjun Shetty — CSE-402
+11:35-12:25 Professional Elective I — Assigned Faculty — CSE-401
+12:25-01:15 Project Work — Prof. Neha Joseph — CSE-402
+01:15-02:00 LUNCH BREAK
+02:00-02:50 AI Lab — Dr. Rohan Mathew — AI-LAB-2
+02:50-03:40 AI Lab — Dr. Rohan Mathew — AI-LAB-2
+03:40-04:30 AI Lab — Dr. Rohan Mathew — AI-LAB-2
+04:30-05:20 Project Review — Prof. Neha Joseph — CSE-402
+
+TUESDAY
+08:00-08:50 Cloud Computing — Prof. Vivek Kumar — CSE-401
+08:50-09:40 Artificial Intelligence — Dr. Rohan Mathew — CSE-401
+09:40-10:30 Big Data Analytics — Dr. Arjun Shetty — CSE-402
+10:30-10:45 SHORT BREAK
+10:45-11:35 Cyber Security — Prof. Sneha Bhat — CSE-402
+11:35-12:25 Professional Elective II — Assigned Faculty — CSE-401
+12:25-01:15 Project Work — Prof. Neha Joseph — CSE-402
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Cloud Lab — Prof. Vivek Kumar — CSE-LAB-4
+02:50-03:40 Cloud Lab — Prof. Vivek Kumar — CSE-LAB-4
+03:40-04:30 Cloud Lab — Prof. Vivek Kumar — CSE-LAB-4
+04:30-05:20 Seminar — Prof. Neha Joseph — SEM-101
+
+
+============================================================
+CSE — 4TH YEAR — SECTION B
+============================================================
+
+MONDAY
+08:00-08:50 Cloud Computing — Prof. Vivek Kumar — CSE-403
+08:50-09:40 Cyber Security — Prof. Sneha Bhat — CSE-403
+09:40-10:30 Artificial Intelligence — Dr. Rohan Mathew — CSE-404
+10:30-10:45 SHORT BREAK
+10:45-11:35 Professional Elective I — Assigned Faculty — CSE-404
+11:35-12:25 Big Data Analytics — Dr. Arjun Shetty — CSE-403
+12:25-01:15 Project Work — Prof. Neha Joseph — CSE-404
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Cyber Security Lab — Prof. Sneha Bhat — CY-LAB
+02:50-03:40 Cyber Security Lab — Prof. Sneha Bhat — CY-LAB
+03:40-04:30 Cyber Security Lab — Prof. Sneha Bhat — CY-LAB
+04:30-05:20 Project Review — Prof. Neha Joseph — CSE-404
+
+
+============================================================
+ISE — ALL YEARS
+============================================================
+
+ISE 1ST YEAR:
+Core subjects:
+Engineering Mathematics I
+Programming Fundamentals
+Engineering Physics
+Engineering Chemistry
+Basic Electronics
+Communication Skills
+Engineering Drawing
+Programming Lab
+Physics Lab
+
+ISE 2ND YEAR:
+Data Structures
+Database Management Systems
+Operating Systems
+Computer Networks
+Object Oriented Programming
+Discrete Mathematics
+OOP Lab
+DBMS Lab
+Networks Lab
+
+ISE 3RD YEAR:
+Web Technologies
+Machine Learning
+Software Engineering
+Computer Networks
+Database Systems
+Cloud Fundamentals
+Web Technology Lab
+Machine Learning Lab
+Project Work
+
+ISE 4TH YEAR:
+Artificial Intelligence
+Cloud Computing
+Cyber Security
+Big Data Analytics
+Professional Elective I
+Professional Elective II
+AI Lab
+Cloud Lab
+Major Project
+
+ISE TIMETABLE RULE:
+Sections A and B use separate rooms and alternating subject
+order. Faculty are selected from the simulated ISE faculty
+directory above.
+
+Typical ISE rooms:
+ISE-101
+ISE-102
+ISE-201
+ISE-202
+ISE-301
+ISE-302
+ISE-401
+ISE-402
+ISE-LAB-1
+ISE-LAB-2
+ISE-LAB-3
+
+
+============================================================
+ECE — ALL YEARS
+============================================================
+
+ECE 1ST YEAR:
+Engineering Mathematics
+Engineering Physics
+Engineering Chemistry
+Basic Electronics
+Programming Fundamentals
+Communication Skills
+Electronics Lab
+Physics Lab
+
+ECE 2ND YEAR:
+Analog Electronics
+Digital Electronics
+Signals and Systems
+Electronic Devices
+Network Theory
+Microprocessors
+Digital Electronics Lab
+Analog Electronics Lab
+
+ECE 3RD YEAR:
+Digital Signal Processing
+Communication Systems
+Embedded Systems
+Microcontrollers
+VLSI Design
+Antenna and Wave Propagation
+DSP Lab
+Embedded Systems Lab
+
+ECE 4TH YEAR:
+Wireless Communication
+IoT Systems
+Advanced VLSI
+Optical Communication
+Professional Elective
+Project Work
+Communication Lab
+IoT Lab
+Major Project
+
+SIMULATED ECE ROOMS:
+ECE-101
+ECE-102
+ECE-201
+ECE-202
+ECE-301
+ECE-302
+ECE-401
+ECE-402
+ECE-LAB-1
+ECE-LAB-2
+ECE-LAB-3
+
+Typical faculty assignment:
+Analog Electronics — Prof. Diya Nair
+Digital Electronics — Prof. Manoj Joseph
+Signals and Systems — Dr. Shreya Menon
+Embedded Systems — Prof. Akash Bhat
+Communication Systems — Prof. Tanya Mathew
+VLSI — Dr. Rohit Shetty
+
+
+============================================================
+EEE — ALL YEARS
+============================================================
+
+EEE 1ST YEAR:
+Engineering Mathematics
+Engineering Physics
+Engineering Chemistry
+Basic Electrical Engineering
+Programming Fundamentals
+Communication Skills
+Electrical Lab
+Physics Lab
+
+EEE 2ND YEAR:
+Electrical Machines
+Power Systems
+Network Theory
+Control Systems
+Power Electronics
+Electrical Measurements
+Machines Lab
+Power Electronics Lab
+
+EEE 3RD YEAR:
+Advanced Power Systems
+Renewable Energy
+Digital Control
+Electrical Drives
+Power System Protection
+Industrial Automation
+Power Systems Lab
+Control Systems Lab
+
+EEE 4TH YEAR:
+Smart Grid
+Electric Vehicles
+Renewable Energy Systems
+High Voltage Engineering
+Professional Elective
+Major Project
+Power Electronics Lab
+EV Lab
+Project Review
+
+SIMULATED EEE ROOMS:
+EEE-101
+EEE-102
+EEE-201
+EEE-202
+EEE-301
+EEE-302
+EEE-401
+EEE-402
+EEE-LAB-1
+EEE-LAB-2
+EEE-LAB-3
+
+Typical faculty:
+Basic Electrical Engineering — Prof. Nandini Nair
+Electrical Machines — Prof. Ajay Menon
+Power Systems — Dr. Pooja Joseph
+Control Systems — Prof. Karthik Bhat
+Power Electronics — Prof. Ramesh Kumar
+Renewable Energy — Dr. Divya Shetty
+
+
+============================================================
+MECHANICAL — ALL YEARS
+============================================================
+
+MECHANICAL 1ST YEAR:
+Engineering Mathematics
+Engineering Physics
+Engineering Chemistry
+Engineering Mechanics
+Engineering Drawing
+Communication Skills
+Workshop Practice
+Physics Lab
+
+MECHANICAL 2ND YEAR:
+Thermodynamics
+Fluid Mechanics
+Manufacturing Processes
+Material Science
+Machine Drawing
+Strength of Materials
+Manufacturing Lab
+Fluid Mechanics Lab
+
+MECHANICAL 3RD YEAR:
+Heat Transfer
+Machine Design
+Internal Combustion Engines
+Dynamics of Machinery
+CAD/CAM
+Industrial Engineering
+CAD Lab
+Thermal Engineering Lab
+
+MECHANICAL 4TH YEAR:
+Robotics Fundamentals
+Automobile Engineering
+Advanced Manufacturing
+Mechatronics
+Professional Elective
+Major Project
+CAD/CAM Lab
+Robotics Lab
+Project Review
+
+SIMULATED MECHANICAL ROOMS:
+ME-101
+ME-102
+ME-201
+ME-202
+ME-301
+ME-302
+ME-401
+ME-402
+ME-LAB-1
+ME-LAB-2
+ME-LAB-3
+
+Typical faculty:
+Engineering Mechanics — Prof. Deepak Nair
+Thermodynamics — Prof. Anjali Menon
+Fluid Mechanics — Dr. Harish Joseph
+Machine Design — Prof. Naveen Bhat
+CAD/CAM — Prof. Swati Kumar
+Mechatronics — Dr. Manoj Shetty
+
+
+============================================================
+CIVIL — ALL YEARS
+============================================================
+
+CIVIL 1ST YEAR:
+Engineering Mathematics
+Engineering Physics
+Engineering Chemistry
+Engineering Mechanics
+Engineering Drawing
+Communication Skills
+Surveying Basics
+Physics Lab
+
+CIVIL 2ND YEAR:
+Structural Analysis
+Surveying
+Fluid Mechanics
+Concrete Technology
+Geotechnical Engineering
+Building Materials
+Surveying Lab
+Materials Lab
+
+CIVIL 3RD YEAR:
+Design of Structures
+Transportation Engineering
+Environmental Engineering
+Foundation Engineering
+Hydrology
+Construction Management
+Structural Lab
+Environmental Lab
+
+CIVIL 4TH YEAR:
+Advanced Structural Design
+Urban Planning
+Earthquake Engineering
+Construction Technology
+Professional Elective
+Major Project
+Structural Design Lab
+Project Work
+Seminar
+
+SIMULATED CIVIL ROOMS:
+CIV-101
+CIV-102
+CIV-201
+CIV-202
+CIV-301
+CIV-302
+CIV-401
+CIV-402
+CIV-LAB-1
+CIV-LAB-2
+CIV-LAB-3
+
+Typical faculty:
+Engineering Mechanics — Prof. Shalini Nair
+Structural Analysis — Prof. Abhishek Menon
+Surveying — Dr. Mahesh Joseph
+Geotechnical Engineering — Prof. Nisha Bhat
+Transportation Engineering — Prof. Arun Kumar
+Environmental Engineering — Dr. Kavitha Shetty
+
+
+============================================================
+ROBOTICS AND AUTOMATION — ALL YEARS
+============================================================
+
+IMPORTANT:
+Robotics and Automation is a SIMULATED COURSE for the College
+Mate demo.
+
+ROBOTICS — 1ST YEAR
+
+MONDAY
+08:00-08:50 Engineering Mathematics I — Dr. Rakesh Rao — ROB-101
+08:50-09:40 Programming Fundamentals — Prof. Divya Nair — ROB-101
+09:40-10:30 Engineering Physics — Dr. Arvind Menon — PHY-203
+10:30-10:45 SHORT BREAK
+10:45-11:35 Engineering Physics — Dr. Arvind Menon — PHY-203
+11:35-12:25 Engineering Chemistry — Prof. Keerthi Joseph — CHM-103
+12:25-01:15 Communication Skills — Prof. Akhil Bhat — HUM-104
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Programming Lab — Prof. Divya Nair — ROB-LAB-1
+02:50-03:40 Programming Lab — Prof. Divya Nair — ROB-LAB-1
+03:40-04:30 Programming Lab — Prof. Divya Nair — ROB-LAB-1
+04:30-05:20 Robotics Introduction — Dr. Rakesh Rao — ROB-101
+
+TUESDAY
+08:00-08:50 Engineering Mathematics — Dr. Rakesh Rao — ROB-101
+08:50-09:40 Engineering Drawing — Prof. Rohit Mathew — ROB-102
+09:40-10:30 Basic Electronics — Prof. Akhil Bhat — ROB-102
+10:30-10:45 SHORT BREAK
+10:45-11:35 Basic Electronics — Prof. Akhil Bhat — ROB-102
+11:35-12:25 Programming Fundamentals — Prof. Divya Nair — ROB-101
+12:25-01:15 Engineering Physics — Dr. Arvind Menon — PHY-203
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Engineering Drawing — Prof. Rohit Mathew — DRAW-203
+02:50-03:40 Engineering Drawing — Prof. Rohit Mathew — DRAW-203
+03:40-04:30 Engineering Drawing — Prof. Rohit Mathew — DRAW-203
+04:30-05:20 Club Activity — Prof. Keerthi Joseph — ACT-103
+
+
+ROBOTICS — 2ND YEAR
+
+Core subjects:
+Robotics Fundamentals
+Sensors and Instrumentation
+Control Systems
+Microcontrollers
+Robot Programming
+Engineering Mathematics
+Mechatronics
+Robotics Laboratory
+Control Systems Laboratory
+Microcontroller Laboratory
+
+Sample Monday:
+
+08:00-08:50 Robotics Fundamentals — Dr. Rakesh Rao — ROB-201
+08:50-09:40 Sensors and Instrumentation — Prof. Divya Nair — ROB-201
+09:40-10:30 Control Systems — Dr. Arvind Menon — ROB-202
+10:30-10:45 SHORT BREAK
+10:45-11:35 Microcontrollers — Prof. Akhil Bhat — ROB-202
+11:35-12:25 Engineering Mathematics — Dr. Rakesh Rao — ROB-201
+12:25-01:15 Mechatronics — Prof. Rohit Mathew — ROB-202
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Robotics Lab — Dr. Rakesh Rao — ROB-LAB-2
+02:50-03:40 Robotics Lab — Dr. Rakesh Rao — ROB-LAB-2
+03:40-04:30 Robotics Lab — Dr. Rakesh Rao — ROB-LAB-2
+04:30-05:20 Mentor Hour — Prof. Keerthi Joseph — ROB-202
+
+
+ROBOTICS — 3RD YEAR
+
+Core subjects:
+Industrial Robotics
+Computer Vision
+Artificial Intelligence for Robotics
+Autonomous Systems
+Robot Operating Systems
+Machine Learning
+Industrial Automation
+Computer Vision Lab
+Robotics Lab
+Automation Lab
+
+Sample Monday:
+
+08:00-08:50 Industrial Robotics — Dr. Rakesh Rao — ROB-301
+08:50-09:40 Computer Vision — Prof. Divya Nair — ROB-301
+09:40-10:30 AI for Robotics — Dr. Arvind Menon — ROB-302
+10:30-10:45 SHORT BREAK
+10:45-11:35 Autonomous Systems — Prof. Akhil Bhat — ROB-302
+11:35-12:25 Robot Operating Systems — Prof. Rohit Mathew — ROB-301
+12:25-01:15 Machine Learning — Dr. Sneha Kumar — ROB-302
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Computer Vision Lab — Prof. Divya Nair — ROB-LAB-3
+02:50-03:40 Computer Vision Lab — Prof. Divya Nair — ROB-LAB-3
+03:40-04:30 Computer Vision Lab — Prof. Divya Nair — ROB-LAB-3
+04:30-05:20 Project Discussion — Dr. Rakesh Rao — ROB-302
+
+
+ROBOTICS — 4TH YEAR
+
+Core subjects:
+Advanced Robotics
+Humanoid Robotics
+Autonomous Navigation
+Robot Perception
+Industrial Automation
+AI and Robotics
+Professional Elective
+Major Project
+Advanced Robotics Lab
+Automation Lab
+Project Review
+
+Sample Monday:
+
+08:00-08:50 Advanced Robotics — Dr. Rakesh Rao — ROB-401
+08:50-09:40 Humanoid Robotics — Prof. Divya Nair — ROB-401
+09:40-10:30 Autonomous Navigation — Dr. Arvind Menon — ROB-402
+10:30-10:45 SHORT BREAK
+10:45-11:35 Robot Perception — Prof. Akhil Bhat — ROB-402
+11:35-12:25 Industrial Automation — Prof. Rohit Mathew — ROB-401
+12:25-01:15 AI and Robotics — Dr. Sneha Kumar — ROB-402
+01:15-02:00 LUNCH BREAK
+02:00-02:50 Advanced Robotics Lab — Dr. Rakesh Rao — ROB-LAB-4
+02:50-03:40 Advanced Robotics Lab — Dr. Rakesh Rao — ROB-LAB-4
+03:40-04:30 Advanced Robotics Lab — Dr. Rakesh Rao — ROB-LAB-4
+04:30-05:20 Major Project Review — Dr. Pavan Shetty — ROB-402
+
+
+============================================================
+SECTION B RULE FOR ALL BRANCHES
+============================================================
+
+Section B has the same general academic structure as Section A,
+but uses a different classroom and a different order of subjects.
+
+Example:
+
+CSE 3A:
+Computer Networks at 08:00 AM
+
+CSE 3B:
+Machine Learning at 08:00 AM
+
+Therefore College Mate must always check:
+
+BRANCH + YEAR + SECTION + DAY + TIME
+
+before giving a timetable answer.
+
+============================================================
+DEMO TIME-BASED QUESTIONS
+============================================================
+
+QUESTION:
+"It is 9:15 AM. What class does CSE 1A have on Monday?"
+
+ANSWER:
+Programming in C is currently going on.
+Time: 08:50 AM - 09:40 AM
+Faculty: Prof. Rahul Menon
+Room: CSE-101
+
+QUESTION:
+"It is 10:35 AM. What class does CSE 1A have?"
+
+ANSWER:
+You are currently on the short break.
+Break: 10:30 AM - 10:45 AM
+
+QUESTION:
+"It is 11:00 AM. What class does CSE 1A have?"
+
+ANSWER:
+Engineering Physics.
+Time: 10:45 AM - 11:35 AM
+Faculty: Prof. Kavya Nair
+Room: PHY-201
+
+QUESTION:
+"It is 1:30 PM. What class does CSE 1A have?"
+
+ANSWER:
+Lunch break is currently in progress.
+Lunch: 01:15 PM - 02:00 PM
+
+QUESTION:
+"It is 2:20 PM. What class does CSE 1A have?"
+
+ANSWER:
+Programming in C Lab.
+Time: 02:00 PM - 02:50 PM
+Faculty: Prof. Rahul Menon
+Room: CSE-LAB-1
+
+QUESTION:
+"What is the first class of CSE 4A on Monday?"
+
+ANSWER:
+Artificial Intelligence.
+08:00 AM - 08:50 AM
+Faculty: Dr. Rohan Mathew
+Room: CSE-401
+
+QUESTION:
+"Who teaches Robotics Fundamentals?"
+
+ANSWER:
+Dr. Rakesh Rao.
+
+QUESTION:
+"Where is the Robotics 2nd year lab?"
+
+ANSWER:
+The simulated Robotics 2nd Year Robotics Lab is in ROB-LAB-2.
+
+QUESTION:
+"What is the current class for Robotics 3A at 9:15 AM?"
+
+ANSWER:
+Computer Vision is currently going on.
+08:50 AM - 09:40 AM
+Faculty: Prof. Divya Nair
+Room: ROB-301.
+
+QUESTION:
+"What is the next class after lunch for Robotics 4A?"
+
+ANSWER:
+Advanced Robotics Lab.
+02:00 PM - 02:50 PM.
+Faculty: Dr. Rakesh Rao.
+Room: ROB-LAB-4.
+
+============================================================
+IMPORTANT COLLEGE MATE RULE
+============================================================
+
+For every timetable query, use the following information:
+
+1. Branch
+2. Year
+3. Section
+4. Day
+5. Requested/current time
+
+Then identify:
+
+- Current class
+- Start time
+- End time
+- Faculty
+- Room
+- Next class, if requested
+- Break/lunch, if applicable
+
+If any required information is missing and cannot be safely
+determined from the knowledge base, ask for clarification or
+state that the information could not be found.
+
+If the requested timetable is not present, say:
+
+"I couldn't find that information in my current college
+knowledge base."
+
+NEVER INVENT a timetable entry.
+
+============================================================
+SIMULATION DISCLAIMER
+============================================================
+
+THIS ENTIRE TIMETABLE DATABASE IS SIMULATED DEMO DATA.
+
+It is included only to demonstrate the timetable and
+time-aware capabilities of College Mate during the hackathon.
+
+It must NOT be used by real students to determine actual
+college classes, faculty schedules, rooms, or attendance.
+
+============================================================
+END OF COMPLETE SIMULATED TIMETABLE DATABASE
+============================================================
+
 ============================================================
 
 
