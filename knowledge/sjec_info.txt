@@ -1,0 +1,2494 @@
+COLLEGE MATE — DUMMY COLLEGE KNOWLEDGE BASE
+================================================
+IMPORTANT:
+This is a FICTIONAL DEMO DATASET created for the College Mate hackathon MVP.
+All names, rooms, dates, prices, phone numbers, emails, events, menus and locations
+below are dummy values unless explicitly marked as "Official SJEC information".
+Do not present dummy data as real St Joseph Engineering College information.
+
+COLLEGE IDENTITY
+----------------
+College Name: Joseph Institute of Technology and Management (JITM)
+Short Name: JITM
+Campus: Greenfield Campus
+City: Mangaluru
+State: Karnataka
+Country: India
+Campus Type: Autonomous engineering college
+Academic Year: 2026-2027
+Semester: Odd Semester
+College Motto: Learn, Build, Serve
+Student Helpdesk: Block A, Ground Floor, Room A-012
+Helpdesk Hours: Monday-Friday 9:00 AM-4:30 PM; Saturday 9:00 AM-1:00 PM
+General Email: helpdesk@jitm-demo.edu
+Emergency Campus Number: 9000000000
+
+QUICK CAMPUS MAP
+----------------
+Main Gate: Gate 1, Eastern Road
+Secondary Gate: Gate 2, Western Road
+Block A: Administration and Academic Offices
+Block B: Computer Science and IT
+Block C: Mechanical and Robotics
+Block D: Electronics and Electrical
+Block E: Civil Engineering and Architecture
+Block F: Library and Student Learning Centre
+Block G: Student Centre, Cafeteria and Recreation
+Block H: Innovation and Research Centre
+Sports Complex: South Campus
+Auditorium: Near Block A
+Parking: P1 two-wheelers, P2 cars
+Medical Room: Block A, Ground Floor, A-005
+Security Office: Main Gate, Gate 1
+ATM: Block G entrance
+Bus Bay: North side of Block A
+
+DEPARTMENTS
+-----------
+Computer Science and Engineering (CSE)
+Head of Department: Dr. Arjun Menon
+HOD Office: Block B, Second Floor, Room B-204
+Department Office: Block B, Second Floor, Room B-201
+CSE Email: cse@jitm-demo.edu
+
+Artificial Intelligence and Machine Learning (AIML)
+HOD: Dr. Meera Nair
+HOD Office: Block B, Third Floor, Room B-304
+Department Office: Block B, Third Floor, Room B-301
+
+Information Science and Engineering (ISE)
+HOD: Dr. Rohan Shetty
+HOD Office: Block B, First Floor, Room B-104
+Department Office: Block B, First Floor, Room B-101
+
+Electronics and Communication Engineering (ECE)
+HOD: Dr. Kavya Rao
+HOD Office: Block D, Second Floor, Room D-204
+Department Office: Block D, Second Floor, Room D-201
+
+Electrical and Electronics Engineering (EEE)
+HOD: Dr. Naveen Kumar
+HOD Office: Block D, First Floor, Room D-104
+Department Office: Block D, First Floor, Room D-101
+
+Mechanical Engineering
+HOD: Dr. Vivek Prasad
+HOD Office: Block C, Second Floor, Room C-204
+Department Office: Block C, Second Floor, Room C-201
+
+Civil Engineering
+HOD: Dr. Ananya Pai
+HOD Office: Block E, First Floor, Room E-104
+Department Office: Block E, First Floor, Room E-101
+
+Robotics and Automation
+HOD: Dr. Farhan Ali
+HOD Office: Block C, Third Floor, Room C-304
+Department Office: Block C, Third Floor, Room C-301
+
+Business Administration (BBA)
+HOD: Dr. Priya Thomas
+Office: Block A, Second Floor, Room A-208
+
+Computer Applications (BCA)
+HOD: Dr. Rahul Joseph
+Office: Block A, Second Floor, Room A-212
+
+KEY ADMINISTRATIVE OFFICES
+--------------------------
+Principal Office: Block A, First Floor, Room A-105
+Vice Principal Office: Block A, First Floor, Room A-110
+Registrar Office: Block A, Ground Floor, Room A-018
+Admissions Office: Block A, Ground Floor, Room A-020
+Accounts Office: Block A, Ground Floor, Room A-022
+Examination Cell: Block A, First Floor, Room A-120
+Student Affairs Office: Block A, Ground Floor, Room A-025
+Scholarship Office: Block A, Ground Floor, Room A-027
+Placement Office: Block A, Second Floor, Room A-220
+Training and Placement Helpdesk: A-221
+IT Helpdesk: Block B, Ground Floor, Room B-005
+Transport Office: Block G, Ground Floor, Room G-006
+Hostel Office: Block G, First Floor, Room G-110
+Sports Office: Sports Complex, Room S-003
+Clubs and Activities Office: Block G, First Floor, Room G-115
+
+ACADEMIC STRUCTURE
+------------------
+Working Days: Monday-Saturday
+Normal Class Hours: 9:00 AM-4:00 PM
+Lunch Break: 1:00 PM-2:00 PM
+Short Break: 11:00 AM-11:15 AM
+Second Short Break: 3:15 PM-3:30 PM
+Saturday: Usually half-day depending on timetable
+Sunday: Holiday unless an approved event is scheduled
+
+Period 1: 9:00-9:55
+Period 2: 9:55-10:50
+Short Break: 10:50-11:05
+Period 3: 11:05-12:00
+Period 4: 12:00-12:55
+Lunch: 12:55-1:45
+Period 5: 1:45-2:40
+Period 6: 2:40-3:35
+Short Break: 3:35-3:50
+Period 7: 3:50-4:45
+
+CLASSROOMS
+----------
+CSE 1A: Block B, First Floor, B-110, capacity 60
+CSE 1B: Block B, First Floor, B-111, capacity 60
+CSE 2A: Block B, First Floor, B-210, capacity 65
+CSE 2B: Block B, First Floor, B-211, capacity 65
+CSE 3A: Block B, Second Floor, B-310, capacity 70
+CSE 3B: Block B, Second Floor, B-311, capacity 70
+CSE 4A: Block B, Third Floor, B-410, capacity 70
+CSE 4B: Block B, Third Floor, B-411, capacity 70
+AIML 1A: Block B, First Floor, B-115
+AIML 2A: Block B, Second Floor, B-215
+ECE 1A: Block D, First Floor, D-110
+ECE 2A: Block D, Second Floor, D-210
+EEE 1A: Block D, First Floor, D-115
+MECH 1A: Block C, First Floor, C-110
+MECH 2A: Block C, Second Floor, C-210
+CIVIL 1A: Block E, First Floor, E-110
+
+How to find a classroom:
+Example: CSE 2A means Computer Science second-year section A.
+Go to Block B, First Floor, Room B-210.
+If a classroom is locked or unavailable, contact the department office.
+
+LABORATORIES
+------------
+Programming Lab: Block B, Ground Floor, B-L01
+Computer Networks Lab: Block B, Ground Floor, B-L02
+Database Lab: Block B, Ground Floor, B-L03
+AI and ML Lab: Block B, Third Floor, B-L31
+Cyber Security Lab: Block B, Third Floor, B-L32
+Electronics Lab: Block D, Ground Floor, D-L01
+Embedded Systems Lab: Block D, First Floor, D-L11
+Electrical Machines Lab: Block D, Second Floor, D-L21
+Mechanical Workshop: Block C, Ground Floor, C-W01
+Robotics Lab: Block C, Third Floor, C-L31
+Civil Materials Lab: Block E, Ground Floor, E-L01
+CAD Lab: Block E, Second Floor, E-L21
+Innovation Lab: Block H, First Floor, H-L11
+Project Lab: Block H, Second Floor, H-L21
+
+LIBRARY
+-------
+Name: Central Knowledge Library
+Location: Block F, Ground and First Floor
+Opening Hours:
+Monday-Friday: 8:00 AM-8:00 PM
+Saturday: 9:00 AM-5:00 PM
+Sunday: Closed
+Library Helpdesk: F-002
+Librarian: Ms. Neha Rao
+Library Email: library@jitm-demo.edu
+Books: Approximately 45,000
+Digital Resources: E-books, journals and online databases
+Borrowing: 3 books for 14 days for undergraduate students
+Renewal: Allowed once if no reservation exists
+Fine: Dummy policy — Rs. 2 per day per overdue book
+Reading Room: First Floor
+Silent Study Zone: First Floor, Room F-105
+Group Study Room: First Floor, Room F-110
+Discussion Room: First Floor, Room F-112
+Computer Section: Ground Floor
+Printing/Scanning: Ground Floor near F-002
+
+LIBRARY QUESTIONS
+-----------------
+Q: Where is the library?
+A: Block F, Ground Floor and First Floor.
+Q: Is the library open during lunch?
+A: Yes, during normal working hours.
+Q: Where can I study quietly?
+A: Silent Study Zone, F-105.
+Q: Can I discuss with friends?
+A: Use the Group Study Room or Discussion Room instead of the silent zone.
+Q: How many books can I borrow?
+A: Three books for 14 days under the dummy undergraduate policy.
+
+CAFETERIA
+---------
+Main Cafeteria: Block G, Ground Floor
+Opening Hours: 8:00 AM-6:00 PM
+Breakfast: 8:00-10:00 AM
+Lunch: 12:30-2:30 PM
+Snacks: 3:00-6:00 PM
+Cashless Payment: Available
+Cafeteria Manager: Mr. Sameer
+Contact: cafeteria@jitm-demo.edu
+
+DUMMY MENU AND PRICES
+---------------------
+Tea: Rs. 12
+Coffee: Rs. 15
+Lemon Tea: Rs. 15
+Milk: Rs. 20
+Idli (2): Rs. 25
+Vada (2): Rs. 30
+Masala Dosa: Rs. 45
+Plain Dosa: Rs. 40
+Poori (3): Rs. 40
+Upma: Rs. 30
+Veg Sandwich: Rs. 40
+Veg Puff: Rs. 20
+Samosa: Rs. 15
+French Fries: Rs. 50
+Veg Meals: Rs. 70
+Rice and Dal: Rs. 55
+Curd Rice: Rs. 40
+Veg Fried Rice: Rs. 65
+Paneer Roll: Rs. 60
+Fruit Bowl: Rs. 45
+Water Bottle: Rs. 15
+Juice: Rs. 30
+Buttermilk: Rs. 20
+
+BREAK / REST AREAS
+------------------
+Quiet Rest Area: Block G, First Floor, G-125
+Best for: Sitting quietly during breaks
+Open: 8:00 AM-5:30 PM
+Reading Terrace: Block F, Second Floor
+Best for: Reading or peaceful study
+Student Lounge: Block G, First Floor, G-120
+Best for: Casual conversations and relaxing
+Garden Seating: Behind Block F
+Best for: Outdoor sitting and short breaks
+Indoor Recreation Room: Block G, First Floor, G-130
+Best for: Table games and informal recreation
+Important: Students should use designated areas and follow campus rules.
+
+If a student asks:
+"Where can I rest peacefully?"
+Answer: The Quiet Rest Area in G-125 is the recommended indoor quiet space.
+"Where can I sit during break?"
+Answer: Student Lounge G-120, Quiet Rest Area G-125, or Garden Seating behind Block F.
+"Where can I study outside?"
+Answer: Garden Seating or the Reading Terrace.
+
+EXAMINATION SECTION
+-------------------
+Location: Block A, First Floor, Room A-120
+Exam Cell Working Hours: Monday-Friday 9:30 AM-4:30 PM
+Exam Cell Email: exams@jitm-demo.edu
+Exam Controller: Dr. Suresh Bhat
+Assistant Exam Officer: Ms. Riya Fernandes
+
+DUMMY ACADEMIC CALENDAR
+-----------------------
+Odd Semester Starts: 15 July 2026
+First Internal Assessment: 24-29 August 2026
+Second Internal Assessment: 5-10 October 2026
+Practical Examinations: 2-7 November 2026
+End Semester Examinations: 16-30 November 2026
+Results Expected: 15 December 2026
+Even Semester Starts: 4 January 2027
+
+DUMMY EXAM TIMETABLE — CSE SECOND YEAR
+---------------------------------------
+16 Nov 2026: Mathematics
+18 Nov 2026: Data Structures
+20 Nov 2026: Database Management Systems
+23 Nov 2026: Computer Networks
+25 Nov 2026: Operating Systems
+27 Nov 2026: Professional Communication
+30 Nov 2026: Open Elective
+
+Exam Time: 9:30 AM-12:30 PM
+Reporting Time: 9:00 AM
+Exam Hall Allocation: Displayed on the student portal and notice board.
+
+EXAM FEES
+---------
+Dummy End Semester Exam Fee: Rs. 1,850
+Last Date Without Fine: 30 October 2026
+Late Fee Period: 31 October-3 November 2026
+Late Fee: Rs. 300
+Where to pay: Student Portal > Examination > Exam Fee
+If online payment fails: Contact Accounts Office and Exam Cell.
+
+COMMON EXAM QUESTIONS
+---------------------
+Q: Where is the exam cell?
+A: Block A, First Floor, A-120.
+Q: What time does the exam cell open?
+A: 9:30 AM on working days.
+Q: Where do I pay exam fees?
+A: Student Portal > Examination > Exam Fee.
+Q: What if I miss an exam?
+A: Contact the Exam Cell immediately and ask about the applicable make-up/medical procedure.
+Q: Where are hall tickets?
+A: Student Portal > Examination > Hall Ticket.
+Q: Where are results?
+A: Student Portal > Examination > Results.
+Q: Where can I request a transcript?
+A: Examination Cell, A-120.
+Q: Where do I request a grade card?
+A: Examination Cell or Student Portal, depending on the service.
+Q: How do I apply for revaluation?
+A: Student Portal > Examination > Revaluation, within the announced deadline.
+
+STUDENT PORTAL
+---------------
+Portal Name: JITM Student Portal
+URL: https://portal.jitm-demo.edu
+Login ID: Student registration number
+Common services:
+- Attendance
+- Timetable
+- Internal marks
+- Exam fee
+- Hall ticket
+- Results
+- Course registration
+- Leave application
+- Bonafide request
+- Certificates
+- Notices
+
+If a student cannot log in:
+1. Check registration number.
+2. Reset password.
+3. Contact IT Helpdesk at B-005.
+
+ATTENDANCE
+----------
+Minimum attendance target: 75% under this dummy policy.
+Attendance is visible in Student Portal.
+Attendance shortage queries go to the respective department office.
+Leave requests are submitted through Student Portal.
+Students should not assume that a submitted leave request is automatically approved.
+
+ASSIGNMENTS AND ACADEMICS
+-------------------------
+Assignment submission: Through the LMS unless faculty specifies otherwise.
+LMS Name: JITM Learn
+LMS URL: https://learn.jitm-demo.edu
+Faculty may specify a different submission method.
+If a deadline is unclear, check the course page or contact the faculty member.
+
+FACULTY CONTACTS — DUMMY
+------------------------
+CSE Programming: Prof. Anil Rao — anil.rao@jitm-demo.edu
+Data Structures: Prof. Sneha Pai — sneha.pai@jitm-demo.edu
+DBMS: Prof. Kiran Das — kiran.das@jitm-demo.edu
+Networks: Prof. Joseph Mathew — joseph.mathew@jitm-demo.edu
+Operating Systems: Prof. Asha Menon — asha.menon@jitm-demo.edu
+Mathematics: Dr. Thomas George — thomas.george@jitm-demo.edu
+
+STUDENT SERVICES
+----------------
+Bonafide Certificate:
+Location: Student Affairs Office, A-025
+Request: Student Portal > Certificates > Bonafide
+Dummy processing time: 2 working days
+
+ID Card:
+Location: Student Affairs Office
+Replacement fee: Rs. 150 dummy fee
+Bring: Student registration number and identity proof
+
+Migration Certificate:
+Contact: Examination Cell
+Location: A-120
+
+Transfer Certificate:
+Contact: Student Affairs Office and Examination Cell
+
+Course Completion Certificate:
+Contact: Examination Cell
+
+Transcript:
+Contact: Examination Cell
+Typical dummy processing time: 5 working days
+
+Scholarship:
+Location: Scholarship Office, A-027
+Email: scholarships@jitm-demo.edu
+Students should check eligibility and deadlines before applying.
+
+HOSTEL
+------
+Hostel Office: Block G, First Floor, G-110
+Boys Hostel: North Residential Block
+Girls Hostel: South Residential Block
+Warden Office: Residential Block Ground Floor
+Hostel curfew: 9:30 PM dummy rule
+Mess: Residential Block Dining Hall
+Hostel complaints: Hostel Office or Student Portal
+Hostel admission: Apply through Student Affairs/Hostel Office.
+
+TRANSPORT
+---------
+Transport Office: G-006
+Bus routes:
+Route 1: City Centre → Main Campus
+Route 2: Kottara → Main Campus
+Route 3: Surathkal → Main Campus
+Route 4: Ullal → Main Campus
+Route 5: Pumpwell → Main Campus
+Dummy monthly pass: Rs. 1,200
+Bus timing information is posted on the Student Portal.
+Lost property on buses: Contact Transport Office.
+
+MEDICAL AND EMERGENCY
+---------------------
+Medical Room: Block A, Ground Floor, A-005
+Nurse: Ms. Divya
+Hours: 9:00 AM-5:00 PM on working days
+For urgent emergencies: Contact campus security at 9000000000.
+Nearest emergency hospital information is maintained by the Security Office.
+Do not delay emergency care while trying to contact the chatbot.
+
+SECURITY
+--------
+Security Office: Main Gate, Gate 1
+Campus Security Head: Mr. Prakash
+Lost and Found: Security Office
+Lost ID card: Report immediately to Security and Student Affairs.
+Visitor entry: Main Gate visitor desk.
+After-hours campus access requires authorization.
+
+SPORTS
+------
+Sports Complex: South Campus
+Facilities:
+- Football ground
+- Cricket practice area
+- Basketball court
+- Volleyball court
+- Badminton hall
+- Table tennis room
+- Fitness room
+Sports Office: S-003
+Sports Coordinator: Mr. Daniel
+Booking: Student Portal > Facilities > Sports Booking
+
+CLUBS AND STUDENT ACTIVITIES
+----------------------------
+Technical Clubs:
+- Coding Club
+- Robotics Club
+- AI Society
+- Cyber Security Club
+- Electronics Club
+
+Non-Technical Clubs:
+- Photography Club
+- Debate Club
+- Literary Club
+- Music Club
+- Dance Club
+- Theatre Club
+
+Social:
+- NSS
+- Eco Club
+- Community Service Club
+
+Club registration: Student Portal > Clubs and Activities.
+Club Office: G-115.
+
+INNOVATION CENTRE
+-----------------
+Innovation and Research Centre: Block H
+Innovation Lab: H-L11
+Project Lab: H-L21
+Startup Cell: H-105
+Incubation Desk: H-107
+Purpose:
+- Student projects
+- Hackathons
+- Prototyping
+- Startup mentoring
+- Research activities
+
+HACKATHONS AND EVENTS
+---------------------
+Upcoming Dummy Events:
+1. CodeSprint 2026
+Date: 12 September 2026
+Venue: Innovation Centre, Block H
+Registration: Student Portal > Events
+
+2. TechNova 2026
+Date: 3 October 2026
+Venue: Main Auditorium
+Organizer: Technical Clubs Council
+
+3. Sports Fest 2026
+Date: 17-19 October 2026
+Venue: Sports Complex
+
+4. Cultural Fest 2026
+Date: 7 November 2026
+Venue: Student Centre and Auditorium
+
+5. Project Expo 2026
+Date: 21 November 2026
+Venue: Block H
+
+Event questions:
+- Coordinator: Check the event notice.
+- Registration: Student Portal > Events.
+- Venue: Event-specific notice.
+- Deadline: Event registration page.
+
+AUDITORIUM AND SEMINAR ROOMS
+----------------------------
+Main Auditorium: Near Block A, capacity 900
+Mini Auditorium: Block G, capacity 250
+Seminar Hall 1: Block A, Second Floor, A-250
+Seminar Hall 2: Block D, Third Floor, D-350
+Conference Room: Block H, Ground Floor, H-010
+Project Presentation Room: Block H, Second Floor, H-205
+
+PARKING
+-------
+Two-Wheeler Parking: P1, east of Block A
+Car Parking: P2, north of Block A
+Visitor Parking: Near Gate 1
+Parking hours: 7:30 AM-7:00 PM
+Students must display the required parking pass.
+
+WIFI AND IT SUPPORT
+-------------------
+Campus Wi-Fi: JITM-Student
+Login: Student Portal credentials
+IT Helpdesk: B-005
+IT Helpdesk Hours: 9:00 AM-5:00 PM
+Common problems:
+- Wi-Fi login
+- Password reset
+- Portal access
+- LMS access
+- Lab computer issues
+- Printing issues
+
+If Wi-Fi does not work:
+1. Forget and reconnect to JITM-Student.
+2. Check Student Portal credentials.
+3. Contact IT Helpdesk if the issue continues.
+
+PRINTING AND SCANNING
+---------------------
+Main Print Centre: Block F, Ground Floor
+Hours: 9:00 AM-5:00 PM
+Dummy price:
+Black and white: Rs. 2/page
+Colour: Rs. 10/page
+Scanning: Rs. 5/document
+
+FEES AND ACCOUNTS
+-----------------
+Accounts Office: A-022
+Working Hours: 9:30 AM-4:30 PM
+Common payments:
+- Tuition fee
+- Examination fee
+- Hostel fee
+- Transport fee
+- Certificate fee
+- Library fine
+Payment method: Student Portal where available; otherwise Accounts Office.
+
+PLACEMENT AND CAREER SERVICES
+----------------------------
+Placement Office: A-220
+Placement Helpdesk: A-221
+Placement Officer: Ms. Rachel D'Souza
+Email: placements@jitm-demo.edu
+Services:
+- Placement registration
+- Internship information
+- Resume workshops
+- Aptitude training
+- Mock interviews
+- Company drives
+- Career counselling
+
+Placement questions:
+"How do I register for placements?"
+Answer: Student Portal > Placement Registration.
+
+"Where is the placement office?"
+Answer: Block A, Second Floor, A-220.
+
+"Who do I contact about an internship?"
+Answer: Placement Helpdesk A-221.
+
+FOOD AND DAILY LIFE
+-------------------
+Breakfast available: 8:00-10:00 AM
+Lunch available: 12:30-2:30 PM
+Snacks available: 3:00-6:00 PM
+Drinking water stations:
+- Block A Ground Floor
+- Block B First Floor
+- Block D First Floor
+- Block F Ground Floor
+- Block G Ground Floor
+
+Washrooms:
+- Every academic block has washrooms on each floor.
+Accessible washroom: Block A Ground Floor near A-005.
+
+Prayer / quiet reflection space:
+Student Reflection Room, Block G, First Floor, G-135.
+Use respectfully and follow posted rules.
+
+CAMPUS NAVIGATION EXAMPLES
+--------------------------
+Q: Where is Block B?
+A: Block B is the Computer Science and IT academic block, east of Block A.
+
+Q: Where is the CSE department?
+A: Block B, with the department office on the second floor.
+
+Q: Where is the cafeteria?
+A: Block G, Ground Floor.
+
+Q: Where is the library?
+A: Block F.
+
+Q: Where is the exam cell?
+A: Block A, First Floor, A-120.
+
+Q: Where is the medical room?
+A: Block A, Ground Floor, A-005.
+
+Q: Where can I print documents?
+A: Main Print Centre in Block F, Ground Floor.
+
+Q: Where can I play basketball?
+A: Sports Complex, South Campus.
+
+Q: Where can I work on my project?
+A: Innovation Centre, Block H, subject to access rules.
+
+Q: Where can I sit quietly?
+A: Quiet Rest Area G-125 or Silent Study Zone F-105.
+
+NOTICES AND DEADLINES
+---------------------
+The Student Portal is the primary source for current notices in this dummy system.
+A notice may include:
+- Exam fee deadline
+- Holiday
+- Event
+- Class cancellation
+- Room change
+- Assignment deadline
+- Scholarship deadline
+- Placement drive
+- Club registration
+- Bus changes
+
+If the user asks "What is happening today?" answer using the latest notice/event data available in this knowledge base.
+If no current notice is provided, say that the current knowledge base does not contain a current notice.
+
+COMMON STUDENT QUESTIONS
+------------------------
+Q: Who is the CSE HOD?
+A: Dr. Arjun Menon, HOD, CSE.
+
+Q: Where is the HOD office?
+A: Block B, Second Floor, B-204.
+
+Q: I forgot my ID card. What should I do?
+A: Contact Student Affairs or Security and follow campus entry rules.
+
+Q: I lost my phone.
+A: Report it to Security/Lost and Found at the Main Gate.
+
+Q: I lost my ID card.
+A: Report it immediately to Security and Student Affairs.
+
+Q: I have a scholarship question.
+A: Visit Scholarship Office A-027 or email scholarships@jitm-demo.edu.
+
+Q: I need a bonafide certificate.
+A: Apply through Student Portal > Certificates > Bonafide or visit Student Affairs A-025.
+
+Q: I need a transcript.
+A: Contact Examination Cell A-120.
+
+Q: My attendance is low.
+A: Check Student Portal and contact your department office for the applicable procedure.
+
+Q: My exam fee payment failed.
+A: Check the transaction status first, then contact Accounts Office and Examination Cell.
+
+Q: I don't know my classroom.
+A: Check Student Portal > Timetable. The timetable gives the room number.
+
+Q: My classroom changed.
+A: Check the latest notice on the Student Portal because room changes may be temporary.
+
+Q: Where can I charge my laptop?
+A: Student Learning Centre in Block F and designated charging points in the Student Lounge.
+
+Q: Where can I wait between classes?
+A: Student Lounge G-120, Quiet Rest Area G-125, library reading areas, or designated garden seating.
+
+Q: Where can I meet my project team?
+A: Group Study Room F-110 or Innovation Centre project areas, subject to availability.
+
+Q: Can I eat inside the library?
+A: No. Food and drinks should be consumed in designated cafeteria areas.
+
+Q: Can I use the lab after class?
+A: Only during permitted lab/open-lab hours and with required authorization.
+
+Q: How do I contact my HOD?
+A: Visit the department office or use the department email.
+
+Q: What if I don't know whom to contact?
+A: Start with the Student Helpdesk at A-012.
+
+NATURAL-LANGUAGE / UNSTRUCTURED QUESTION EXAMPLES
+-------------------------------------------------
+The system should understand questions like:
+
+"bro where is cse hod room"
+"where's the canteen"
+"i'm hungry what can i get for 50"
+"where can i chill during lunch"
+"i need somewhere quiet"
+"where do i go for exam stuff"
+"when do my sem exams start"
+"what's the last date for exam fee"
+"who handles scholarships"
+"i lost my id what now"
+"my wifi isn't working"
+"where can i print"
+"where is b210"
+"what is b210"
+"where's the library at"
+"can i study somewhere peaceful"
+"where can i play basketball"
+"i need a bonafide"
+"who is cse hod"
+"where is his office"
+"how much is dosa"
+"what food can i get for 100"
+"what is happening this month"
+"any events coming up"
+"where is the placement office"
+"who should i talk to about internship"
+"i missed my exam"
+"my attendance is low"
+"where do i pay fees"
+"where is the medical room"
+"i have a problem with the portal"
+"where can i sit between classes"
+"where can i meet my friends"
+"what time does library close"
+"does library open saturday"
+"where are project labs"
+"what room is cse 2a"
+"which block is mechanical"
+"how do i get to the exam cell"
+"i need transcript"
+"i need grade card"
+"where do i submit certificate application"
+
+RESPONSE BEHAVIOUR
+------------------
+1. Answer directly and naturally.
+2. Use only information available in this knowledge base.
+3. Never invent a name, room, price, date, deadline or contact.
+4. If a detail is missing, say:
+   "I don't have that information in my current college knowledge base."
+5. If a question is ambiguous, ask for the missing detail.
+6. If multiple options exist, list the most relevant options.
+7. For location questions, give block + floor + room whenever available.
+8. For deadlines, include the exact date.
+9. For fees, include the amount and where to pay.
+10. For events, include date, venue and registration method when available.
+11. For safety/emergency issues, direct the student to the appropriate campus authority rather than pretending the chatbot can provide emergency assistance.
+12. Clearly distinguish dummy/demo information from real official college information if the system is ever shown outside the hackathon.
+
+INTENT CATEGORIES
+-----------------
+The chatbot should recognize these broad intents:
+- HOD / faculty information
+- Department information
+- Classroom location
+- Laboratory location
+- Building navigation
+- Library
+- Cafeteria / food / prices
+- Rest / quiet spaces
+- Examination
+- Exam timetable
+- Exam fee
+- Results
+- Certificates
+- Scholarships
+- Fees and accounts
+- Attendance
+- Assignments
+- Timetable
+- Student portal
+- LMS
+- IT / Wi-Fi
+- Medical
+- Security
+- Lost and found
+- Hostel
+- Transport
+- Sports
+- Clubs
+- Events
+- Auditorium / halls
+- Printing
+- Placement
+- Projects / innovation
+- General campus information
+
+DEMO SCENARIOS FOR HACKATHON
+----------------------------
+Scenario 1:
+Student: "Bro where is CSE HOD office?"
+College Mate: "The CSE HOD office is in Block B, Second Floor, Room B-204."
+
+Scenario 2:
+Student: "I'm free for 20 minutes. Where can I sit quietly?"
+College Mate: "Try the Quiet Rest Area in G-125. The Silent Study Zone in F-105 is another good option if you prefer a study environment."
+
+Scenario 3:
+Student: "What can I eat for under Rs. 50?"
+College Mate: "You could get Masala Dosa for Rs. 45, Veg Sandwich for Rs. 40, Idli for Rs. 25, or Curd Rice for Rs. 40."
+
+Scenario 4:
+Student: "When are second-year CSE exams?"
+College Mate: "The dummy CSE second-year end-semester exams run from 16 to 30 November 2026. The subject-wise timetable is in the examination section of this knowledge base."
+
+Scenario 5:
+Student: "I need a bonafide urgently."
+College Mate: "Apply through Student Portal > Certificates > Bonafide, or visit Student Affairs Office A-025. The dummy processing time is two working days."
+
+Scenario 6:
+Student: "My Wi-Fi is dead 😭"
+College Mate: "Try reconnecting to JITM-Student using your Student Portal credentials. If it still doesn't work, visit the IT Helpdesk in B-005."
+
+Scenario 7:
+Student: "Any tech events coming?"
+College Mate: "The next listed dummy technical event is CodeSprint 2026 on 12 September 2026 at the Innovation Centre, Block H. Registration is through Student Portal > Events."
+
+Scenario 8:
+Student: "I lost my ID card."
+College Mate: "Report it to Security at the Main Gate and Student Affairs. A replacement ID has a dummy fee of Rs. 150."
+
+Scenario 9:
+Student: "Where do I go for exam fee?"
+College Mate: "You can pay through Student Portal > Examination > Exam Fee. For help, visit the Examination Cell at A-120 or Accounts Office A-022."
+
+Scenario 10:
+Student: "Where can my team work on our hackathon project?"
+College Mate: "The Innovation Centre in Block H has a Project Lab at H-L21. Check access availability with the Innovation Centre."
+
+COLLEGE MATE V2 — DAILY STUDENT KNOWLEDGE SIMULATION
+=========================================================
+IMPORTANT:
+This is FICTIONAL DEMO DATA created for the College Mate hackathon MVP.
+Names, faculty statuses, timetables, dates, deadlines, events, prices,
+rooms, emails and schedules below are dummy values.
+They must NOT be presented as real college information.
+In a real deployment, these sections would be connected to the college's
+ERP, timetable system, notices, faculty schedules and other verified sources.
+
+PURPOSE
+-------
+College Mate is designed to remain useful after a student becomes familiar
+with the campus. It supports daily academic questions, faculty availability,
+timetables, assignments, exams, notices, events, campus services and student life.
+
+STUDENT PROFILES
+----------------
+The demo supports:
+- First-year students
+- Second-year students
+- Third-year students
+- Final-year students
+
+Branches:
+- CSE
+- AIML
+- ISE
+- ECE
+- EEE
+- Mechanical
+- Civil
+- Robotics and Automation
+- BBA
+- BCA
+
+ACADEMIC YEAR
+-------------
+Academic Year: 2026-2027
+Current Semester: Odd Semester
+Current Demo Date: 7 September 2026
+Normal Classes: Monday-Saturday
+College Hours: 9:00 AM-4:45 PM
+Lunch: 12:55 PM-1:45 PM
+Short Break 1: 10:50 AM-11:05 AM
+Short Break 2: 3:35 PM-3:50 PM
+
+DAILY CAMPUS STATUS
+-------------------
+Demo Date: 7 September 2026
+
+Today's Important Notices:
+1. CSE 2A DBMS assignment deadline is extended to 9 September.
+2. Library is open until 9:00 PM today.
+3. Route 3 college bus departs at 4:30 PM today instead of 4:15 PM.
+4. Basketball practice starts at 5:00 PM at the Sports Complex.
+5. Coding Club meeting is at 4:00 PM in B-301.
+
+Today's Events:
+- Coding Club Meeting — 4:00 PM — B-301
+- CSE Project Review — 2:00 PM — H-205
+- Basketball Practice — 5:00 PM — Sports Complex
+
+Today's Faculty Status:
+- Prof. Anil Rao, C Programming — Present
+- Prof. Sneha Pai, Data Structures — Present
+- Prof. Kiran Das, DBMS — On Leave
+- Prof. Joseph Mathew, Networks — Present
+- Prof. Asha Menon, Operating Systems — Present
+
+When asked "What's happening today?", summarize the latest information
+under Today's Notices, Events and Faculty Status.
+
+When asked "Is anything important happening today?", prioritize deadlines,
+room changes, exam notices, events and faculty changes.
+
+WHEN THE USER SAYS "NOW"
+------------------------
+The system should interpret "now" using the current demo date/time data.
+If real-time time integration is not connected, say that the displayed
+faculty/event status is simulated demo data and not a live presence system.
+
+FACULTY AVAILABILITY
+--------------------
+IMPORTANT: Faculty presence below is simulated demo information.
+
+Prof. Anil Rao
+Subject: C Programming
+Department: CSE
+Office: B-202
+Status: Present
+Availability Today: 2:00 PM-3:00 PM
+Next Class: 3:50 PM, CSE 1A, B-110
+Email: anil.rao@jitm-demo.edu
+
+Prof. Sneha Pai
+Subject: Data Structures
+Department: CSE
+Office: B-203
+Status: Present
+Availability Today: 11:15 AM-12:00 PM
+Next Class: 1:45 PM, CSE 2A, B-210
+Email: sneha.pai@jitm-demo.edu
+
+Prof. Kiran Das
+Subject: DBMS
+Department: CSE
+Office: B-205
+Status: On Leave Today
+Return Date: 10 September 2026
+Email: kiran.das@jitm-demo.edu
+
+Prof. Joseph Mathew
+Subject: Computer Networks
+Department: CSE
+Office: B-206
+Status: Present
+Availability Today: 3:00 PM-3:30 PM
+Email: joseph.mathew@jitm-demo.edu
+
+Prof. Asha Menon
+Subject: Operating Systems
+Department: CSE
+Office: B-207
+Status: Present
+Availability Today: 10:00 AM-10:30 AM
+Email: asha.menon@jitm-demo.edu
+
+FACULTY QUESTIONS
+-----------------
+Q: Is C programming sir present?
+A: Demo status says Prof. Anil Rao is present today.
+
+Q: Is my C programming teacher in college?
+A: Prof. Anil Rao is marked Present in the simulated faculty status.
+
+Q: Where can I meet Prof. Anil Rao?
+A: His demo office is B-202. His listed availability today is 2:00 PM-3:00 PM.
+
+Q: Is the DBMS teacher available today?
+A: Prof. Kiran Das is marked On Leave Today and is expected to return on
+10 September 2026 in the demo data.
+
+Q: Who teaches DBMS?
+A: Prof. Kiran Das.
+
+Q: Can I meet my Networks professor?
+A: Prof. Joseph Mathew is listed as available from 3:00 PM-3:30 PM today.
+
+Q: Where is the faculty office?
+A: Give the relevant faculty office from the faculty data.
+
+BRANCH-WISE TIMETABLE SYSTEM
+----------------------------
+Students should identify themselves by:
+Branch + Year + Section.
+
+Examples:
+CSE 1A
+CSE 2A
+CSE 3A
+CSE 4A
+AIML 1A
+ISE 2A
+ECE 1A
+EEE 1A
+MECH 1A
+CIVIL 1A
+RA 1A
+
+If a user asks "What is my timetable?" and gives no branch/year/section,
+ask them to provide those details.
+
+CSE 1A TIMETABLE
+----------------
+Monday:
+9:00-9:55 C Programming — B-110 — Prof. Anil Rao
+9:55-10:50 Mathematics — B-110 — Dr. Thomas George
+11:05-12:00 Digital Logic — B-L02 — Prof. Nisha Paul
+12:00-12:55 Communication Skills — B-110 — Prof. Maria Joseph
+1:45-2:40 Data Structures — B-110 — Prof. Sneha Pai
+2:40-3:35 Data Structures Lab — B-L01 — Prof. Sneha Pai
+3:50-4:45 Club/Activity Hour — G-120
+
+Tuesday:
+9:00-9:55 Mathematics — B-111 — Dr. Thomas George
+9:55-10:50 C Programming — B-111 — Prof. Anil Rao
+11:05-12:00 Computer Fundamentals — B-111 — Prof. Rakesh Kumar
+12:00-12:55 Computer Fundamentals Lab — B-L01
+1:45-2:40 Communication Skills — B-111
+2:40-3:35 Digital Logic — B-111
+3:50-4:45 Library/Study Hour — F-105
+
+Wednesday:
+9:00-9:55 Data Structures — B-110
+9:55-10:50 Digital Logic — B-110
+11:05-12:00 C Programming Lab — B-L01
+12:00-12:55 C Programming Lab — B-L01
+1:45-2:40 Mathematics — B-110
+2:40-3:35 Communication Skills — B-110
+3:50-4:45 Sports/Activity Hour — Sports Complex
+
+Thursday:
+9:00-9:55 Computer Fundamentals — B-111
+9:55-10:50 Mathematics — B-111
+11:05-12:00 Data Structures — B-111
+12:00-12:55 Communication Skills — B-111
+1:45-2:40 Digital Logic — B-111
+2:40-3:35 Digital Logic Lab — B-L02
+3:50-4:45 C Programming — B-111
+
+Friday:
+9:00-9:55 C Programming — B-110
+9:55-10:50 Data Structures — B-110
+11:05-12:00 Mathematics — B-110
+12:00-12:55 Computer Fundamentals — B-110
+1:45-2:40 Digital Logic — B-110
+2:40-3:35 Innovation/Project Hour — H-L11
+3:50-4:45 Club Hour — G-115
+
+Saturday:
+9:00-9:55 Mathematics — B-110
+9:55-10:50 C Programming — B-110
+11:05-12:00 Data Structures — B-110
+12:00-12:55 Mentoring Hour — B-110
+
+CSE 2A TIMETABLE
+----------------
+Monday:
+9:00-9:55 Mathematics — B-210
+9:55-10:50 Data Structures — B-210 — Prof. Sneha Pai
+11:05-12:00 DBMS — B-210 — Prof. Kiran Das
+12:00-12:55 Computer Networks — B-210 — Prof. Joseph Mathew
+1:45-2:40 Operating Systems — B-210 — Prof. Asha Menon
+2:40-3:35 DBMS Lab — B-L03
+3:50-4:45 Project Work — H-L21
+
+Tuesday:
+9:00-9:55 Data Structures — B-211
+9:55-10:50 DBMS — B-211
+11:05-12:00 Networks Lab — B-L02
+12:00-12:55 Networks Lab — B-L02
+1:45-2:40 Mathematics — B-211
+2:40-3:35 Operating Systems — B-211
+3:50-4:45 Aptitude — A-250
+
+Wednesday:
+9:00-9:55 Operating Systems — B-210
+9:55-10:50 Computer Networks — B-210
+11:05-12:00 DBMS — B-210
+12:00-12:55 Data Structures — B-210
+1:45-2:40 DBMS Lab — B-L03
+2:40-3:35 DBMS Lab — B-L03
+3:50-4:45 Sports/Club Hour
+
+Thursday:
+9:00-9:55 Data Structures — B-211
+9:55-10:50 Mathematics — B-211
+11:05-12:00 Operating Systems — B-211
+12:00-12:55 Networks — B-211
+1:45-2:40 Professional Communication — B-211
+2:40-3:35 Project Work — H-L21
+3:50-4:45 Seminar — A-250
+
+Friday:
+9:00-9:55 DBMS — B-210
+9:55-10:50 Networks — B-210
+11:05-12:00 Data Structures — B-210
+12:00-12:55 Mathematics — B-210
+1:45-2:40 Operating Systems — B-210
+2:40-3:35 Project Work — H-L21
+3:50-4:45 Club Hour — G-115
+
+Saturday:
+9:00-9:55 DBMS
+9:55-10:50 Data Structures
+11:05-12:00 Networks
+12:00-12:55 Mentoring
+
+CSE 3A TIMETABLE
+----------------
+Monday:
+9:00-9:55 Machine Learning — B-310
+9:55-10:50 Operating Systems — B-310
+11:05-12:00 Computer Networks — B-310
+12:00-12:55 DBMS — B-310
+1:45-2:40 Web Technologies — B-310
+2:40-3:35 Web Technologies Lab — B-L31
+3:50-4:45 Project Work — H-L21
+
+Tuesday:
+9:00-9:55 Machine Learning
+9:55-10:50 Web Technologies
+11:05-12:00 Web Technologies Lab
+12:00-12:55 Web Technologies Lab
+1:45-2:40 Professional Elective
+2:40-3:35 Professional Elective
+3:50-4:45 Seminar
+
+Wednesday:
+9:00-9:55 DBMS
+9:55-10:50 Networks
+11:05-12:00 Machine Learning
+12:00-12:55 Operating Systems
+1:45-2:40 Machine Learning Lab
+2:40-3:35 Machine Learning Lab
+3:50-4:45 Sports/Club
+
+Thursday:
+9:00-9:55 Web Technologies
+9:55-10:50 DBMS
+11:05-12:00 Networks
+12:00-12:55 Machine Learning
+1:45-2:40 Professional Elective
+2:40-3:35 Project Work
+3:50-4:45 Placement Training
+
+Friday:
+9:00-9:55 Operating Systems
+9:55-10:50 Machine Learning
+11:05-12:00 Web Technologies
+12:00-12:55 Networks
+1:45-2:40 DBMS
+2:40-3:35 Project Work
+3:50-4:45 Club Hour
+
+Saturday:
+9:00-9:55 Machine Learning
+9:55-10:50 DBMS
+11:05-12:00 Project Work
+12:00-12:55 Mentoring
+
+CSE 4A TIMETABLE
+----------------
+Monday:
+9:00-10:00 Major Project
+10:00-11:00 Cloud Computing
+11:15-12:15 Artificial Intelligence
+12:15-1:15 Professional Elective
+2:00-3:00 Placement Training
+3:00-4:00 Project Lab — H-L21
+
+Tuesday:
+9:00-10:00 Major Project
+10:00-11:00 Artificial Intelligence
+11:15-12:15 Cloud Computing
+12:15-1:15 Professional Elective
+2:00-3:00 Aptitude Training
+3:00-4:00 Mock Interview
+
+Wednesday:
+9:00-10:00 Major Project
+10:00-11:00 Professional Elective
+11:15-12:15 Artificial Intelligence Lab
+12:15-1:15 Artificial Intelligence Lab
+2:00-3:00 Placement Training
+3:00-4:00 Project Review
+
+Thursday:
+9:00-10:00 Cloud Computing
+10:00-11:00 Artificial Intelligence
+11:15-12:15 Major Project
+12:15-1:15 Professional Elective
+2:00-3:00 Placement Training
+3:00-4:00 Technical Seminar
+
+Friday:
+9:00-10:00 Major Project
+10:00-11:00 Cloud Computing
+11:15-12:15 Artificial Intelligence
+12:15-1:15 Professional Elective
+2:00-3:00 Resume Workshop
+3:00-4:00 Project Lab
+
+Saturday:
+9:00-10:00 Project Work
+10:00-11:00 Mentoring
+11:15-12:15 Placement Preparation
+12:15-1:15 Club/Activity
+
+OTHER BRANCH SAMPLE TIMETABLES
+------------------------------
+AIML 1A:
+Monday: Programming, Mathematics, Digital Logic, Communication, AI Fundamentals.
+Tuesday: Mathematics, Programming Lab, AI Fundamentals, Physics, Activity.
+Wednesday: Programming, Mathematics, AI Lab, Communication, Sports.
+Thursday: Digital Logic, Physics, Programming, Mathematics, Library.
+Friday: AI Fundamentals, Programming Lab, Mathematics, Innovation, Club.
+Saturday: Mathematics, Programming, Mentoring.
+
+ISE 2A:
+Monday: Data Structures, DBMS, Networks, Mathematics, OS.
+Tuesday: DBMS Lab, Networks, Mathematics, OS, Aptitude.
+Wednesday: Data Structures, DBMS, Networks Lab, Mathematics, Project.
+Thursday: OS, Networks, DBMS, Professional Communication, Project.
+Friday: Data Structures, Mathematics, DBMS, Project, Club.
+Saturday: DBMS, Networks, Mentoring.
+
+ECE 1A:
+Monday: Engineering Mathematics, Circuit Theory, Programming, Physics, Communication.
+Tuesday: Electronics, Programming Lab, Mathematics, Physics Lab, Activity.
+Wednesday: Circuit Theory, Electronics Lab, Mathematics, Communication, Sports.
+Thursday: Programming, Electronics, Mathematics, Digital Electronics, Library.
+Friday: Physics, Circuit Theory, Electronics Lab, Innovation, Club.
+Saturday: Mathematics, Electronics, Mentoring.
+
+EEE 1A:
+Monday: Mathematics, Electrical Circuits, Programming, Physics, Communication.
+Tuesday: Electrical Machines, Programming Lab, Mathematics, Physics Lab, Activity.
+Wednesday: Circuits, Electrical Lab, Mathematics, Communication, Sports.
+Thursday: Programming, Electrical Machines, Mathematics, Digital Electronics, Library.
+Friday: Physics, Circuits, Electrical Lab, Innovation, Club.
+Saturday: Mathematics, Electrical Machines, Mentoring.
+
+MECH 1A:
+Monday: Mathematics, Engineering Graphics, Programming, Physics, Workshop.
+Tuesday: Mechanics, Graphics Lab, Mathematics, Communication, Activity.
+Wednesday: Workshop, Mathematics, Physics, CAD, Sports.
+Thursday: Programming, Mechanics, Graphics, Library, Communication.
+Friday: Thermodynamics, Workshop, Mathematics, Innovation, Club.
+Saturday: Mathematics, Workshop, Mentoring.
+
+CIVIL 1A:
+Monday: Mathematics, Engineering Mechanics, Programming, Physics, Surveying.
+Tuesday: Surveying Lab, Mathematics, Engineering Drawing, Communication, Activity.
+Wednesday: Materials, Mechanics, Mathematics, Surveying, Sports.
+Thursday: Programming, Materials Lab, Mathematics, Drawing, Library.
+Friday: Physics, Surveying, Mechanics, Innovation, Club.
+Saturday: Mathematics, Surveying, Mentoring.
+
+ROBOTICS 1A:
+Monday: Mathematics, Programming, Robotics Fundamentals, Physics, Electronics.
+Tuesday: Robotics Lab, Programming, Mathematics, Communication, Activity.
+Wednesday: Electronics, Robotics, Mathematics, Physics, Sports.
+Thursday: Programming Lab, Robotics, Mathematics, Electronics, Library.
+Friday: Robotics Lab, Mathematics, Innovation, Project, Club.
+Saturday: Mathematics, Robotics, Mentoring.
+
+BBA 1A:
+Monday: Accounting, Business Economics, Communication, Management, Computer Applications.
+Tuesday: Marketing, Accounting, Business Mathematics, Communication, Activity.
+Wednesday: Economics, Management, Computer Applications, Presentation Skills, Sports.
+Thursday: Accounting, Marketing, Economics, Library, Business Communication.
+Friday: Management, Economics, Business Applications, Innovation, Club.
+Saturday: Business Mathematics, Mentoring.
+
+BCA 1A:
+Monday: Programming, Mathematics, Database Fundamentals, Communication, Computer Lab.
+Tuesday: Programming Lab, Mathematics, Computer Networks, Web Basics, Activity.
+Wednesday: Data Structures, Programming, Database Lab, Mathematics, Sports.
+Thursday: Web Development, Networks, Programming, Library, Communication.
+Friday: Database, Data Structures, Project, Innovation, Club.
+Saturday: Programming, Data Structures, Mentoring.
+
+SUBJECT-FACULTY DIRECTORY
+-------------------------
+C Programming: Prof. Anil Rao
+Data Structures: Prof. Sneha Pai
+DBMS: Prof. Kiran Das
+Computer Networks: Prof. Joseph Mathew
+Operating Systems: Prof. Asha Menon
+Mathematics: Dr. Thomas George
+Digital Logic: Prof. Nisha Paul
+Communication Skills: Prof. Maria Joseph
+AI Fundamentals: Dr. Meera Nair
+Machine Learning: Dr. Meera Nair
+Web Technologies: Prof. Riya Fernandes
+Cloud Computing: Prof. Rahul Joseph
+Engineering Physics: Dr. Kavya Rao
+Circuit Theory: Prof. Naveen Kumar
+Mechanical Workshop: Prof. Vivek Prasad
+Civil Engineering Materials: Dr. Ananya Pai
+Robotics Fundamentals: Dr. Farhan Ali
+
+ASSIGNMENTS
+----------
+CSE 1A:
+C Programming Assignment 1 — Due 11 September 2026
+Data Structures Worksheet — Due 14 September 2026
+Digital Logic Quiz — 16 September 2026
+
+CSE 2A:
+DBMS Assignment 2 — Due 9 September 2026
+Networks Lab Record — Due 12 September 2026
+OS Quiz — 15 September 2026
+Data Structures Mini Project — Due 25 September 2026
+
+CSE 3A:
+Machine Learning Assignment — Due 10 September 2026
+Web Technologies Lab Record — Due 13 September 2026
+Project Proposal — Due 18 September 2026
+
+CSE 4A:
+Major Project Proposal — Due 12 September 2026
+Resume Submission — Due 14 September 2026
+Placement Registration — Due 20 September 2026
+
+Assignment questions:
+"What's due this week?"
+"What's my next assignment?"
+"When is DBMS assignment due?"
+"Where do I submit?"
+Answer using the available assignment information.
+If submission location is not specified, say to check the LMS/course page rather than inventing one.
+
+EXAMINATION AND INTERNALS
+-------------------------
+First Internal Assessment: 24-29 August 2026
+Second Internal Assessment: 5-10 October 2026
+Practical Exams: 2-7 November 2026
+End Semester Exams: 16-30 November 2026
+Results: 15 December 2026
+
+CSE 2A End Semester Exams:
+16 Nov — Mathematics
+18 Nov — Data Structures
+20 Nov — DBMS
+23 Nov — Computer Networks
+25 Nov — Operating Systems
+27 Nov — Professional Communication
+30 Nov — Open Elective
+
+Exam Time: 9:30 AM-12:30 PM
+Reporting Time: 9:00 AM
+
+EXAM FEE
+--------
+Dummy Exam Fee: Rs. 1,850
+Last Date Without Fine: 30 October 2026
+Late Fee: Rs. 300 during 31 October-3 November 2026
+Payment: Student Portal > Examination > Exam Fee
+Exam Cell: A-120
+
+ACADEMIC PROGRESS
+-----------------
+Attendance Target: 75%
+Attendance: Student Portal > Attendance
+Internal Marks: Student Portal > Academics > Internal Marks
+Results: Student Portal > Examination > Results
+Timetable: Student Portal > Academics > Timetable
+Course Registration: Student Portal > Academics > Course Registration
+
+STUDENT PORTAL
+--------------
+URL: https://portal.jitm-demo.edu
+Services:
+- Timetable
+- Attendance
+- Internal marks
+- Exam fee
+- Hall ticket
+- Results
+- Course registration
+- Leave application
+- Bonafide
+- Certificates
+- Notices
+- Events
+- Clubs
+- Placement registration
+- Sports booking
+
+LMS
+---
+Name: JITM Learn
+URL: https://learn.jitm-demo.edu
+Used for:
+- Course materials
+- Assignments
+- Announcements
+- Submission
+- Quiz
+- Faculty messages
+
+CAMPUS EVENTS
+-------------
+CodeSprint 2026:
+12 September 2026
+4:00 PM
+Innovation Centre, Block H
+Coding competition
+Registration: Student Portal > Events
+
+TechNova 2026:
+3 October 2026
+Main Auditorium
+Technology exhibition and talks
+
+Sports Fest 2026:
+17-19 October 2026
+Sports Complex
+
+Cultural Fest 2026:
+7 November 2026
+Auditorium and Student Centre
+
+Project Expo 2026:
+21 November 2026
+Innovation Centre, Block H
+
+Weekly recurring activities:
+Monday: Coding Club — 4:00 PM — B-301
+Tuesday: Robotics Club — 4:00 PM — H-L11
+Wednesday: Basketball Practice — 5:00 PM — Sports Complex
+Thursday: Debate Club — 4:00 PM — G-120
+Friday: Music Club — 4:00 PM — G-130
+
+DAILY CAMPUS LIFE
+-----------------
+Quiet Rest Area: G-125
+Student Lounge: G-120
+Silent Study Zone: F-105
+Group Study Room: F-110
+Garden Seating: Behind Block F
+Reading Terrace: Block F
+Cafeteria: G-Ground Floor
+Print Centre: F-Ground Floor
+Water Stations: A-Ground, B-First, D-First, F-Ground, G-Ground
+
+CAFETERIA
+---------
+Hours: 8:00 AM-6:00 PM
+
+Tea Rs. 12
+Coffee Rs. 15
+Idli Rs. 25
+Vada Rs. 30
+Masala Dosa Rs. 45
+Plain Dosa Rs. 40
+Veg Sandwich Rs. 40
+Veg Puff Rs. 20
+Samosa Rs. 15
+Veg Meals Rs. 70
+Curd Rice Rs. 40
+Fried Rice Rs. 65
+Paneer Roll Rs. 60
+Fruit Bowl Rs. 45
+Water Rs. 15
+Juice Rs. 30
+Buttermilk Rs. 20
+
+Budget examples:
+Under Rs. 20: Tea, Coffee, Veg Puff, Samosa.
+Under Rs. 50: Idli, Vada, Dosa, Sandwich, Curd Rice.
+Under Rs. 100: Almost any single meal/snack combination depending on prices.
+
+FACILITIES
+----------
+Library: Block F
+Innovation Centre: Block H
+Sports Complex: South Campus
+Auditorium: Near Block A
+Medical Room: A-005
+Security: Main Gate
+IT Helpdesk: B-005
+Accounts: A-022
+Exam Cell: A-120
+Scholarship Office: A-027
+Placement Office: A-220
+Student Helpdesk: A-012
+
+STUDENT SERVICES
+----------------
+Bonafide:
+Student Portal > Certificates > Bonafide
+Office: A-025
+
+Scholarship:
+Office: A-027
+Email: scholarships@jitm-demo.edu
+
+Transcript:
+Examination Cell A-120
+
+ID Card Replacement:
+Student Affairs
+Dummy Fee: Rs. 150
+
+Lost and Found:
+Security Office at Main Gate
+
+Wi-Fi:
+Network: JITM-Student
+Support: IT Helpdesk B-005
+
+Placement:
+Office: A-220
+Helpdesk: A-221
+Email: placements@jitm-demo.edu
+
+TRANSPORT
+---------
+Route 1: City Centre → Campus
+Route 2: Kottara → Campus
+Route 3: Surathkal → Campus
+Route 4: Ullal → Campus
+Route 5: Pumpwell → Campus
+Dummy Monthly Pass: Rs. 1,200
+Transport Office: G-006
+
+HOSTEL
+------
+Hostel Office: G-110
+Boys Hostel: North Residential Block
+Girls Hostel: South Residential Block
+Mess: Residential Dining Hall
+Dummy Curfew: 9:30 PM
+Complaints: Hostel Office or Student Portal
+
+SPORTS
+------
+Football Ground
+Cricket Practice Area
+Basketball Court
+Volleyball Court
+Badminton Hall
+Table Tennis Room
+Fitness Room
+Sports Booking: Student Portal > Facilities > Sports Booking
+
+PLACEMENTS
+----------
+Placement Office: A-220
+Placement Helpdesk: A-221
+Placement Officer: Ms. Rachel D'Souza
+Email: placements@jitm-demo.edu
+
+Services:
+- Placement registration
+- Internship information
+- Resume workshops
+- Aptitude training
+- Mock interviews
+- Company drives
+- Career counselling
+
+FINAL-YEAR QUESTIONS
+--------------------
+Q: When is placement registration?
+A: Dummy deadline: 20 September 2026.
+
+Q: Where is placement office?
+A: A-220.
+
+Q: Where do I register for placements?
+A: Student Portal > Placement Registration.
+
+Q: Is there a resume workshop?
+A: Friday at 2:00 PM for CSE 4A in the demo timetable.
+
+Q: Where can I attend a mock interview?
+A: CSE 4A has a Tuesday 3:00-4:00 PM mock interview slot in the demo timetable.
+
+FIRST-YEAR QUESTIONS
+--------------------
+Q: Where is my classroom?
+A: Ask for branch/year/section if not provided, then use the timetable.
+
+Q: Who is my HOD?
+A: Use the department directory.
+
+Q: Where is the library?
+A: Block F.
+
+Q: Where can I sit during break?
+A: Student Lounge G-120, Quiet Rest Area G-125, or Garden Seating.
+
+Q: Where can I eat?
+A: Cafeteria, Block G Ground Floor.
+
+Q: How do I join a club?
+A: Student Portal > Clubs and Activities.
+
+SECOND/THIRD-YEAR QUESTIONS
+---------------------------
+Q: What's my timetable today?
+A: Use branch/year/section timetable.
+
+Q: What assignment is due next?
+A: Use the assignment list.
+
+Q: Is my professor present?
+A: Use the simulated faculty status when available.
+
+Q: Where is my project lab?
+A: Innovation Centre, Block H, Project Lab H-L21.
+
+Q: Any technical events?
+A: CodeSprint, TechNova and Project Expo are listed events.
+
+NATURAL / CASUAL QUESTIONS
+--------------------------
+The system should understand questions such as:
+
+"bro what's my first class today"
+"what do I have after lunch"
+"where is my next class"
+"who teaches my next subject"
+"is c programming sir here today"
+"where can I find sir"
+"is my dbms teacher on leave"
+"what's happening today"
+"anything interesting happening today"
+"any event this week"
+"what clubs are active today"
+"where can i chill during break"
+"i have 30 mins free where should i go"
+"i need somewhere quiet"
+"where can i work on my project"
+"where can i print my assignment"
+"how much food can i get for 50"
+"what's cheap in the canteen"
+"when is my next assignment"
+"what do i have tomorrow"
+"when are my sem exams"
+"how much is exam fee"
+"when is the last date"
+"where do i pay it"
+"my attendance is low what do i do"
+"where do i check attendance"
+"where are my internal marks"
+"i lost my id"
+"wifi isn't working"
+"where is placement office"
+"when does placement registration close"
+"where is basketball practice"
+"what's happening after class"
+"where can i study"
+"can i meet my professor today"
+"who should i contact for scholarship"
+"where do i get bonafide"
+"where can i get transcript"
+"where's the medical room"
+"where is the bus"
+"which bus goes through kottara"
+"what time is the library open"
+"can i study late"
+"where is a quiet place right now"
+"what's my schedule tomorrow morning"
+"do i have class at 2"
+"what room is my next class in"
+
+QUERY INTERPRETATION RULES
+--------------------------
+1. "C programming sir" means the C Programming faculty.
+2. "canteen" means cafeteria.
+3. "exam office" or "exam department" means Examination Cell.
+4. "hod room" means the relevant department HOD office.
+5. "where can I chill" means recommend a suitable student rest area.
+6. "what's happening" means current notices/events.
+7. "today" means the current demo date.
+8. "tomorrow" means the next calendar day in the demo schedule.
+9. "my timetable" requires branch/year/section unless a student profile exists.
+10. "my next class" requires current time plus branch/year/section; if unavailable,
+ask for the missing information.
+11. "is sir present" should only use the simulated faculty-status section.
+12. Never infer real-time presence from timetable alone.
+
+MISSING INFORMATION RULE
+------------------------
+If a requested detail does not exist in this knowledge base, answer:
+"I don't have that information in my current college knowledge base."
+
+Never invent:
+- A faculty status
+- A deadline
+- A room
+- A price
+- An event
+- An exam date
+- A timetable entry
+- A contact
+- A bus timing
+
+AMBIGUOUS QUESTION RULE
+-----------------------
+If the student says:
+"What is my timetable?"
+Ask:
+"Sure. Tell me your branch, year and section, for example CSE 2A."
+
+If the student says:
+"Where is my class?"
+Ask:
+"Which branch, year and section are you in?"
+
+If the student says:
+"Is sir present?"
+Ask:
+"Which faculty member or subject do you mean?"
+
+If the student says:
+"What is happening?"
+Interpret it as campus updates if the user is clearly asking about college.
+
+RESPONSE STYLE
+--------------
+- Friendly and student-focused.
+- Answer directly before giving extra details.
+- Use room numbers and block names for navigation.
+- Use exact dates for deadlines.
+- Use exact times for schedules.
+- Do not overwhelm the student with unrelated information.
+- For casual questions, respond naturally but accurately.
+- Never pretend dummy information is live real-world information.
+
+DEMO CONVERSATIONS
+------------------
+
+Student:
+"bro what class do i have after lunch?"
+College Mate:
+"Tell me your branch, year and section, for example CSE 2A, and I'll check the timetable."
+
+Student:
+"CSE 2A"
+College Mate:
+"On Monday, your class after lunch is Operating Systems from 1:45-2:40 in B-210 with Prof. Asha Menon."
+
+Student:
+"is c programming sir there today?"
+College Mate:
+"Yes. The simulated faculty status lists Prof. Anil Rao, C Programming, as Present today. His listed availability is 2:00-3:00 PM in the demo data."
+
+Student:
+"where can i chill for 20 mins?"
+College Mate:
+"The Quiet Rest Area G-125 is a good option. You can also use the Student Lounge G-120 or Garden Seating behind Block F."
+
+Student:
+"anything happening today?"
+College Mate:
+"Yes. Today's demo updates include a Coding Club meeting at 4:00 PM in B-301, a CSE Project Review at 2:00 PM in H-205, and basketball practice at 5:00 PM at the Sports Complex."
+
+Student:
+"what can i eat for 50?"
+College Mate:
+"You could have Masala Dosa for Rs. 45, Veg Sandwich for Rs. 40, Curd Rice for Rs. 40, or Idli for Rs. 25."
+
+Student:
+"when is my next assignment?"
+College Mate:
+"Tell me your branch, year and section so I can check the relevant assignment list."
+
+Student:
+"CSE 2A"
+College Mate:
+"Your next listed assignment is DBMS Assignment 2, due 9 September 2026."
+
+Student:
+"where is my next class?"
+College Mate:
+"Tell me your branch, year and section, and I'll check the timetable."
+
+Student:
+"where can i study late?"
+College Mate:
+"The library is normally open until 8:00 PM on weekdays. Today's demo notice says it is open until 9:00 PM."
+
+Student:
+"my wifi isn't working"
+College Mate:
+"Try reconnecting to JITM-Student with your Student Portal credentials. If it still doesn't work, visit the IT Helpdesk at B-005."
+
+Student:
+"i lost my id"
+College Mate:
+"Report it to Security at the Main Gate and Student Affairs. The dummy replacement fee is Rs. 150."
+
+Student:
+"when does placement registration close?"
+College Mate:
+"The dummy placement registration deadline is 20 September 2026. Registration is through the Student Portal."
+
+HACKATHON DEMO FLOW
+-------------------
+Recommended live demonstration:
+
+1. Ask:
+"Where is the library?"
+Shows campus navigation.
+
+2. Ask:
+"I'm CSE 2A. What do I have after lunch today?"
+Shows personalized academic retrieval.
+
+3. Ask:
+"Is my C programming teacher present today?"
+Shows faculty-status retrieval.
+
+4. Ask:
+"What's happening today?"
+Shows dynamic-looking campus updates.
+
+5. Ask:
+"I have 30 minutes free. Where can I chill?"
+Shows student-life assistance.
+
+6. Ask:
+"When is my DBMS assignment due?"
+Shows academic deadlines.
+
+7. Ask:
+"What can I eat for Rs. 50?"
+Shows practical daily use.
+
+8. Ask:
+"When is placement registration?"
+Shows usefulness for senior students.
+
+FUTURE REAL-COLLEGE VERSION
+----------------------------
+In a real deployment, replace dummy data with verified sources:
+- College ERP
+- Student timetable database
+- Faculty schedules
+- Attendance system
+- Examination system
+- College notices
+- Event management system
+- Library system
+- Cafeteria system
+- Placement portal
+- Transport schedule
+- Hostel management system
+
+Potential future live integrations:
+- Automatic notice updates
+- Faculty availability from authorized schedules
+- Personalized timetable based on student login
+- Assignment and deadline synchronization
+- Event notifications
+- Exam reminders
+- Attendance alerts
+- Personalized student dashboard
+
+============================================================
+STUDENT SAFETY, DISCIPLINE & CAMPUS COMMITTEES
+============================================================
+
+IMPORTANT NOTE:
+The committee names, roles, room numbers, names and contact
+details in this section are SIMULATED DEMO DATA created for
+the College Mate hackathon prototype.
+
+College Mate must not present simulated committee information
+as verified real-world SJEC information.
+
+------------------------------------------------------------
+1. ANTI-RAGGING COMMITTEE
+------------------------------------------------------------
+
+Purpose:
+The Anti-Ragging Committee is responsible for preventing,
+identifying and addressing incidents or complaints related
+to ragging on campus.
+
+Students can approach the committee if:
+- They experience or witness ragging.
+- They are concerned about a ragging-related situation.
+- They need guidance about anti-ragging rules.
+- They want to report a suspected ragging incident.
+
+Who should contact:
+- Any student experiencing or witnessing ragging.
+- First-year students who have concerns about senior-student
+  behaviour.
+- Students who need confidential guidance regarding a
+  ragging-related concern.
+
+Demo contact:
+Anti-Ragging Committee Coordinator:
+Dr. Anil Kumar
+Office: Student Affairs Office, Block A, First Floor
+Email: antiragging@college-demo.edu
+
+------------------------------------------------------------
+2. DISCIPLINE COMMITTEE
+------------------------------------------------------------
+
+Purpose:
+The Discipline Committee handles matters related to student
+discipline, campus conduct and violations of college rules.
+
+Students can approach the committee for:
+- Questions about student discipline rules.
+- Clarification about campus conduct.
+- Reporting serious misconduct.
+- Guidance regarding disciplinary procedures.
+
+Who should contact:
+- Students involved in a disciplinary matter.
+- Students who need clarification about college rules.
+- Students who need to report serious misconduct.
+
+Demo contact:
+Discipline Committee Coordinator:
+Prof. Ravi Menon
+Office: Student Affairs Office, Block A, First Floor
+Email: discipline@college-demo.edu
+
+------------------------------------------------------------
+3. STUDENT GRIEVANCE REDRESSAL COMMITTEE
+------------------------------------------------------------
+
+Purpose:
+The Student Grievance Redressal Committee helps students
+raise and resolve legitimate complaints or grievances related
+to academic, administrative or campus matters.
+
+Students can approach the committee for:
+- Academic grievances.
+- Administrative complaints.
+- Problems with college services.
+- Unresolved student concerns.
+- Complaints that have not been resolved through the
+  appropriate department.
+
+Who should contact:
+- Any student with a genuine college-related grievance.
+- Students who have already tried the normal department-level
+  process but need further assistance.
+
+Demo contact:
+Grievance Committee Coordinator:
+Dr. Priya Sharma
+Office: Student Affairs Office, Block A, Second Floor
+Email: grievance@college-demo.edu
+
+------------------------------------------------------------
+4. INTERNAL COMPLAINTS / STUDENT SAFETY COMMITTEE
+------------------------------------------------------------
+
+Purpose:
+This committee provides a channel for students to report
+concerns involving inappropriate behaviour, harassment,
+intimidation or other student-safety concerns.
+
+Students can approach the committee if:
+- They feel unsafe on campus.
+- They experience inappropriate behaviour.
+- They need help with a serious student-safety concern.
+- They want guidance on where to submit a complaint.
+
+Who should contact:
+- Any student with a genuine safety-related concern.
+- Students who need help identifying the appropriate
+  college authority to approach.
+
+Demo contact:
+Student Safety Coordinator:
+Prof. Meera Nair
+Office: Student Welfare Centre, Block C, Ground Floor
+Email: safety@college-demo.edu
+
+------------------------------------------------------------
+5. WOMEN'S / STUDENT SUPPORT COMMITTEE
+------------------------------------------------------------
+
+Purpose:
+The committee provides support and guidance for students
+facing safety, harassment or welfare-related concerns.
+
+Students can approach the committee for:
+- Personal safety concerns.
+- Harassment-related concerns.
+- Guidance about reporting a problem.
+- Student welfare support.
+
+Who should contact:
+- Students who need support regarding safety or welfare.
+- Students who are unsure which college authority they
+  should approach.
+
+Demo contact:
+Student Support Coordinator:
+Prof. Meera Nair
+Office: Student Welfare Centre, Block C, Ground Floor
+Email: studentsupport@college-demo.edu
+
+------------------------------------------------------------
+6. INTERNAL COMPLAINTS COMMITTEE (ICC)
+------------------------------------------------------------
+
+Purpose:
+The Internal Complaints Committee provides an institutional
+channel for handling complaints covered by applicable
+workplace/student safety policies.
+
+Students should use the committee when their concern falls
+within the committee's responsibilities.
+
+Who should contact:
+- Students who need to report a relevant complaint.
+- Students who need information about the complaint process.
+- Students who need guidance on which official authority
+  should receive their complaint.
+
+Demo contact:
+ICC Coordinator:
+Dr. Meera Nair
+Office: Student Welfare Centre, Block C, Ground Floor
+Email: icc@college-demo.edu
+
+------------------------------------------------------------
+7. STUDENT WELFARE COMMITTEE
+------------------------------------------------------------
+
+Purpose:
+The Student Welfare Committee focuses on general student
+welfare, support services and helping students find the
+appropriate college department for their concerns.
+
+Students can approach the committee for:
+- General student welfare concerns.
+- Support-service information.
+- Help finding the correct college office.
+- Guidance about student support facilities.
+
+Who should contact:
+- Students who do not know which department handles their
+  problem.
+- Students looking for general welfare assistance.
+
+Demo contact:
+Student Welfare Coordinator:
+Prof. Arjun Rao
+Office: Student Welfare Centre, Block C, Ground Floor
+Email: welfare@college-demo.edu
+
+------------------------------------------------------------
+8. STUDENT COUNSELLING / WELL-BEING SUPPORT
+------------------------------------------------------------
+
+Purpose:
+The Student Counselling and Well-being Support service
+provides students with a safe place to seek general
+well-being and personal support.
+
+Students can approach the service when:
+- They are facing personal difficulties.
+- They need someone to talk to.
+- They are having difficulty adjusting to college life.
+- They want guidance about available student-support services.
+
+Who should contact:
+- Any student who wants appropriate student-support guidance.
+
+Demo contact:
+Student Support Counsellor:
+Ms. Kavya Rao
+Office: Student Welfare Centre, Block C, First Floor
+Email: counselling@college-demo.edu
+
+------------------------------------------------------------
+9. EQUAL OPPORTUNITY / INCLUSION COMMITTEE
+------------------------------------------------------------
+
+Purpose:
+The committee promotes an inclusive and supportive campus
+environment and helps students understand available support
+mechanisms.
+
+Who should contact:
+- Students facing concerns related to equal access or
+  inclusion.
+- Students who need guidance about available support services.
+
+Demo contact:
+Inclusion Coordinator:
+Dr. Priya Sharma
+Office: Administration Block, Second Floor
+Email: inclusion@college-demo.edu
+
+------------------------------------------------------------
+10. STUDENT GRIEVANCE ESCALATION
+------------------------------------------------------------
+
+If a student has a problem but does not know which committee
+to approach, College Mate should first identify the type of
+problem and suggest the appropriate committee or office.
+
+Examples:
+
+Question:
+"Someone is ragging me. Who should I contact?"
+
+Suggested response:
+"For a ragging-related concern, contact the Anti-Ragging
+Committee. In this demo knowledge base, the coordinator is
+Dr. Anil Kumar at the Student Affairs Office, Block A,
+First Floor."
+
+Question:
+"Who handles student discipline?"
+
+Suggested response:
+"The Discipline Committee handles student discipline and
+campus conduct matters. In this demo knowledge base, the
+coordinator is Prof. Ravi Menon."
+
+Question:
+"I have a complaint about a college service. Where should
+I go?"
+
+Suggested response:
+"You can approach the Student Grievance Redressal Committee
+for a college-related grievance. If the issue belongs to a
+specific department, College Mate can also help identify the
+appropriate department."
+
+Question:
+"I don't know who to contact about my problem."
+
+Suggested response:
+"Tell me what type of problem you are facing, and I can
+identify the appropriate college office or committee from
+my current knowledge base."
+
+------------------------------------------------------------
+11. COLLEGE MATE SAFETY RESPONSE RULE
+------------------------------------------------------------
+
+For serious safety, ragging, harassment or disciplinary
+concerns, College Mate should:
+
+1. Clearly identify the relevant committee or responsible
+   college office.
+2. Provide the available contact information from the
+   knowledge base.
+3. Avoid inventing additional contact details.
+4. If the required information is unavailable, say:
+   "I don't have that information in my current college
+   knowledge base."
+5. Encourage the student to contact the appropriate official
+   college authority directly for urgent or serious matters.
+6. Do not claim that a complaint has been submitted simply
+   because the student asked College Mate about it.
+
+------------------------------------------------------------
+12. DEMO DATA DISCLAIMER
+------------------------------------------------------------
+
+All committee names, coordinator names, room numbers, email
+addresses and organizational details in this section are
+SIMULATED DEMO DATA for the College Mate hackathon prototype.
+
+Before deployment at the real college, these details must be
+replaced with verified information supplied by the college.
+
+==================================================
+COLLEGE MATE — EVENTS & ACTIVITIES KNOWLEDGE BASE
+DEMO / SIMULATED DATA
+==================================================
+
+College Mate can answer questions about college events,
+including sports, cultural events, technical events,
+competitions, workshops, hackathons, clubs, and student
+activities.
+
+--------------------------------------------------
+1. SPORTS EVENTS
+--------------------------------------------------
+
+Annual Inter-Class Cricket Tournament
+- Category: Sports
+- Status: Completed
+- Participants: Students from different classes
+- Venue: College Sports Ground
+- Organizer: Department of Physical Education
+- Faculty Coordinator: Sports Coordinator
+- Result: [SIMULATED DEMO RESULT]
+- Winner: Computer Science Department
+- Runner-up: Mechanical Engineering Department
+- Important note: This result is simulated demo information.
+
+Inter-Class Football Tournament
+- Category: Sports
+- Status: Completed
+- Participants: College student teams
+- Venue: College Football Ground
+- Organizer: Department of Physical Education
+- Winner: [SIMULATED DEMO RESULT]
+
+Inter-Class Basketball Tournament
+- Category: Sports
+- Status: Completed
+- Participants: College student teams
+- Venue: College Basketball Court
+- Organizer: Department of Physical Education
+- Winner: [SIMULATED DEMO RESULT]
+
+Annual Athletics Meet
+- Category: Sports
+- Status: Completed
+- Events: Running, long jump, high jump, relay and other
+  athletics competitions
+- Participants: Students
+- Organizer: Department of Physical Education
+
+
+--------------------------------------------------
+2. CULTURAL EVENTS
+--------------------------------------------------
+
+Annual Cultural Fest
+- Category: Cultural
+- Status: Completed
+- Activities include:
+  - Dance
+  - Singing
+  - Solo performances
+  - Group performances
+  - Drama
+  - Music
+  - Cultural competitions
+- Participants: College students
+- Venue: College Auditorium / Main Campus
+- Organizer: Student Cultural Committee
+
+Dance Competition
+- Category: Cultural
+- Status: Completed
+- Formats: Solo and group dance
+- Participants: Students
+- Winner: [SIMULATED DEMO RESULT]
+
+Singing Competition
+- Category: Cultural
+- Status: Completed
+- Formats: Solo and group singing
+- Participants: Students
+- Winner: [SIMULATED DEMO RESULT]
+
+Drama Competition
+- Category: Cultural
+- Status: Completed
+- Participants: Student teams
+- Winner: [SIMULATED DEMO RESULT]
+
+
+--------------------------------------------------
+3. TECHNICAL EVENTS
+--------------------------------------------------
+
+College Hackathon
+- Category: Technical
+- Status: Completed
+- Participants: Student teams
+- Activities:
+  - Problem solving
+  - Software development
+  - AI projects
+  - Presentation
+  - Project evaluation
+- Venue: College Computer Labs / Innovation Centre
+- Organizer: Technical Club / Innovation Cell
+- Winner: [SIMULATED DEMO RESULT]
+
+Technical Project Exhibition
+- Category: Technical
+- Status: Completed
+- Participants: Student project teams
+- Activities:
+  - Project demonstrations
+  - Technical presentations
+  - Prototype demonstrations
+
+
+--------------------------------------------------
+4. WORKSHOPS & SEMINARS
+--------------------------------------------------
+
+AI & Machine Learning Workshop
+- Category: Workshop
+- Status: Completed
+- Participants: Students
+- Topics:
+  - Artificial Intelligence
+  - Machine Learning
+  - Generative AI
+- Organizer: Technical Department / Technical Club
+
+Career Guidance Seminar
+- Category: Seminar
+- Status: Completed
+- Audience: Students
+- Topics:
+  - Career opportunities
+  - Higher studies
+  - Industry preparation
+
+
+--------------------------------------------------
+5. CLUB EVENTS
+--------------------------------------------------
+
+Technical Club Activities
+- Coding competitions
+- Technical workshops
+- Project demonstrations
+- Quiz competitions
+
+Cultural Club Activities
+- Dance events
+- Singing events
+- Drama
+- Cultural competitions
+
+Sports Club Activities
+- Inter-class competitions
+- Annual sports events
+- Team selections
+
+
+--------------------------------------------------
+6. UPCOMING EVENTS
+--------------------------------------------------
+
+College Mate should distinguish between:
+- Upcoming events
+- Ongoing events
+- Completed events
+- Cancelled/postponed events
+
+For every event, when available, the knowledge base should contain:
+- Event name
+- Event category
+- Date
+- Time
+- Venue
+- Organizer
+- Faculty coordinator
+- Eligibility
+- Registration information
+- Registration deadline
+- Status
+- Results (if completed)
+
+
+--------------------------------------------------
+7. EVENT QUESTION EXAMPLES
+--------------------------------------------------
+
+Students may ask:
+
+"Who won the inter-class cricket tournament?"
+
+"When is the next football tournament?"
+
+"What cultural events are happening?"
+
+"Is there a dance competition?"
+
+"Who is organizing the hackathon?"
+
+"When is the hackathon?"
+
+"Where is the singing competition?"
+
+"Who can participate in the event?"
+
+"Is registration still open?"
+
+"What was the result of the cricket tournament?"
+
+"Which events are coming up?"
+
+"What sports competitions are available?"
+
+"What technical events were conducted?"
+
+"What cultural activities does the college conduct?"
+
+--------------------------------------------------
+IMPORTANT ANSWERING RULE
+--------------------------------------------------
+
+College Mate must only provide event details that exist
+in its knowledge base.
+
+If an event, winner, date, venue, or result is not present
+in the knowledge base, College Mate should NOT invent an
+answer.
+
+Instead, it should respond:
+
+"I couldn't find that information in my current college
+knowledge base."
+
+For simulated information used during the hackathon demo,
+the information must be treated as DEMO / SIMULATED DATA
+and should not be presented as verified real-world college
+information.
+
+============================================================
+
+
+

@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>College Mate | SJEC AI Assistant</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+                "Segoe UI", sans-serif;
+
+            min-height: 100vh;
+            color: white;
+            overflow-x: hidden;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #071225 0%,
+                    #0b1835 45%,
+                    #15113a 100%
+                );
+
+            position: relative;
+        }
+
+        /* Animated background */
+
+        body::before {
+            content: "";
+            position: fixed;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+
+            background: #315cff;
+            opacity: 0.12;
+            filter: blur(100px);
+
+            top: -150px;
+            left: -100px;
+
+            animation: floatOne 8s ease-in-out infinite alternate;
+
+            pointer-events: none;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+
+            background: #8b5cf6;
+            opacity: 0.12;
+            filter: blur(100px);
+
+            right: -120px;
+            bottom: -100px;
+
+            animation: floatTwo 10s ease-in-out infinite alternate;
+
+            pointer-events: none;
+        }
+
+        @keyframes floatOne {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(100px, 80px);
+            }
+        }
+
+        @keyframes floatTwo {
+            from {
+                transform: translate(0, 0);
+            }
+
+            to {
+                transform: translate(-80px, -60px);
+            }
+        }
+
+        /* Main layout */
+
+        .container {
+            width: min(1400px, 94%);
+            margin: auto;
+
+            min-height: 100vh;
+
+            display: grid;
+            grid-template-columns: 0.8fr 1.25fr 0.8fr;
+
+            gap: 28px;
+            align-items: center;
+
+            padding: 35px 0;
+        }
+
+        /* LEFT SIDE */
+
+        .hero {
+            padding: 20px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+
+            padding: 10px 16px;
+
+            border-radius: 30px;
+
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #dce6ff;
+
+            font-size: 14px;
+
+            backdrop-filter: blur(15px);
+
+            margin-bottom: 28px;
+        }
+
+        .badge span {
+            animation: sparkle 2s infinite;
+        }
+
+        @keyframes sparkle {
+            0%, 100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.25);
+            }
+        }
+
+        .hero h1 {
+            font-size: clamp(55px, 6vw, 90px);
+            line-height: 0.92;
+
+            letter-spacing: -4px;
+
+            margin-bottom: 25px;
+        }
+
+        .gradient-text {
+            background: linear-gradient(
+                90deg,
+                #ffffff,
+                #9bbcff,
+                #b99cff
+            );
+
+            -webkit-background-clip: text;
+            background-clip: text;
+
+            color: transparent;
+        }
+
+        .hero p {
+            color: #b8c2d9;
+
+            font-size: 17px;
+            line-height: 1.8;
+
+            max-width: 430px;
+        }
+
+        /* CHAT CARD */
+
+        .chat-card {
+            width: 100%;
+
+            height: 650px;
+
+            background: rgba(7, 15, 34, 0.82);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            border-radius: 30px;
+
+            overflow: hidden;
+
+            backdrop-filter: blur(25px);
+
+            box-shadow:
+                0 30px 80px rgba(0, 0, 0, 0.35);
+
+            display: flex;
+            flex-direction: column;
+
+            position: relative;
+
+            z-index: 2;
+        }
+
+        /* CHAT HEADER */
+
+        .chat-header {
+            padding: 22px 25px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .assistant-info {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .bot-avatar {
+            width: 55px;
+            height: 55px;
+
+            border-radius: 17px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 28px;
+
+            background: linear-gradient(
+                135deg,
+                #5677ff,
+                #8a5cff
+            );
+
+            box-shadow:
+                0 10px 30px rgba(86, 119, 255, 0.35);
+
+            animation: botFloat 3s ease-in-out infinite;
+        }
+
+        @keyframes botFloat {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+
+        .assistant-info h2 {
+            font-size: 19px;
+            margin-bottom: 4px;
+        }
+
+        .assistant-info p {
+            color: #9ba8c4;
+            font-size: 13px;
+        }
+
+        .online {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+
+            padding: 9px 14px;
+
+            border-radius: 20px;
+
+            border: 1px solid rgba(34, 197, 94, 0.3);
+
+            background: rgba(34, 197, 94, 0.08);
+
+            color: #8df3b0;
+
+            font-size: 13px;
+        }
+
+        .online-dot {
+            width: 9px;
+            height: 9px;
+
+            border-radius: 50%;
+
+            background: #22c55e;
+
+            box-shadow:
+                0 0 12px #22c55e;
+
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(0.75);
+            }
+        }
+
+        /* CHAT MESSAGES */
+
+        .messages {
+            flex: 1;
+
+            padding: 25px;
+
+            overflow-y: auto;
+
+            display: flex;
+            flex-direction: column;
+
+            gap: 15px;
+        }
+
+        .message {
+            max-width: 82%;
+
+            padding: 14px 17px;
+
+            border-radius: 18px;
+
+            line-height: 1.6;
+
+            font-size: 15px;
+
+            animation: messageIn 0.4s ease;
+        }
+
+        @keyframes messageIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .bot-message {
+            align-self: flex-start;
+
+            background: rgba(38, 51, 78, 0.75);
+
+            border-top-left-radius: 5px;
+
+            color: #e9efff;
+        }
+
+        .user-message {
+            align-self: flex-end;
+
+            background: linear-gradient(
+                135deg,
+                #536cff,
+                #7256e8
+            );
+
+            border-top-right-radius: 5px;
+
+            color: white;
+        }
+
+        /* QUICK QUESTIONS */
+
+        .quick-actions {
+            padding: 0 20px 15px;
+
+            display: flex;
+
+            gap: 10px;
+
+            overflow-x: auto;
+        }
+
+        .quick-btn {
+            white-space: nowrap;
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            background: rgba(255, 255, 255, 0.05);
+
+            color: #d8e0f4;
+
+            padding: 11px 15px;
+
+            border-radius: 22px;
+
+            cursor: pointer;
+
+            transition: 0.25s;
+
+            font-size: 13px;
+        }
+
+        .quick-btn:hover {
+            background: rgba(255, 255, 255, 0.12);
+
+            transform: translateY(-2px);
+        }
+
+        /* INPUT */
+
+        .input-area {
+            padding: 18px 20px;
+
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+            display: flex;
+
+            gap: 10px;
+        }
+
+        #questionInput {
+            flex: 1;
+
+            min-width: 0;
+
+            padding: 17px 18px;
+
+            border-radius: 18px;
+
+            border: 1px solid rgba(255, 255, 255, 0.1);
+
+            outline: none;
+
+            background: rgba(255, 255, 255, 0.06);
+
+            color: white;
+
+            font-size: 15px;
+        }
+
+        #questionInput::placeholder {
+            color: #77839d;
+        }
+
+        #sendButton {
+            width: 58px;
+            height: 58px;
+
+            border: none;
+
+            border-radius: 18px;
+
+            background: linear-gradient(
+                135deg,
+                #536cff,
+                #7757ef
+            );
+
+            color: white;
+
+            font-size: 22px;
+
+            cursor: pointer;
+
+            transition: 0.25s;
+
+            box-shadow:
+                0 10px 25px rgba(83, 108, 255, 0.3);
+        }
+
+        #sendButton:hover {
+            transform: translateY(-2px) scale(1.03);
+        }
+
+        #sendButton:active {
+            transform: scale(0.96);
+        }
+
+        /* RIGHT SIDE */
+
+        .side-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .quote-card {
+            padding: 35px 25px;
+
+            min-height: 220px;
+
+            border-radius: 28px;
+
+            border: 1px solid rgba(255, 255, 255, 0.1);
+
+            background: rgba(255, 255, 255, 0.04);
+
+            backdrop-filter: blur(20px);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            text-align: center;
+        }
+
+        .quote-mark {
+            font-size: 50px;
+
+            color: #8498ff;
+
+            line-height: 0.7;
+
+            margin-bottom: 20px;
+        }
+
+        .quote-card p {
+            color: #e0e5f5;
+
+            font-size: 18px;
+
+            font-style: italic;
+
+            line-height: 1.6;
+        }
+
+        .quote-card small {
+            margin-top: 18px;
+
+            color: #929db7;
+
+            font-size: 13px;
+        }
+
+        /* QUICK ACTIONS */
+
+        .actions-card {
+            padding: 25px;
+
+            border-radius: 28px;
+
+            border: 1px solid rgba(255, 255, 255, 0.1);
+
+            background: rgba(255, 255, 255, 0.04);
+
+            backdrop-filter: blur(20px);
+        }
+
+        .actions-title {
+            display: flex;
+            justify-content: space-between;
+
+            margin-bottom: 20px;
+        }
+
+        .actions-title h3 {
+            font-size: 18px;
+        }
+
+        .actions-title span {
+            color: #8d98b3;
+            font-size: 13px;
+        }
+
+        .actions-grid {
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 12px;
+        }
+
+        .action {
+            min-height: 95px;
+
+            border-radius: 20px;
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            background: rgba(255, 255, 255, 0.045);
+
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: center;
+
+            gap: 8px;
+
+            cursor: pointer;
+
+            transition: 0.25s;
+
+            color: #dce4f7;
+        }
+
+        .action:hover {
+            transform: translateY(-4px);
+
+            background: rgba(255, 255, 255, 0.09);
+
+            border-color: rgba(120, 140, 255, 0.4);
+        }
+
+        .action-icon {
+            font-size: 25px;
+        }
+
+        .action span {
+            font-size: 13px;
+        }
+
+        /* TYPING */
+
+        .typing {
+            display: none;
+
+            align-self: flex-start;
+
+            background: rgba(38, 51, 78, 0.75);
+
+            padding: 13px 16px;
+
+            border-radius: 17px;
+        }
+
+        .typing span {
+            display: inline-block;
+
+            width: 7px;
+            height: 7px;
+
+            margin: 0 2px;
+
+            background: #aab6d1;
+
+            border-radius: 50%;
+
+            animation: typing 1.2s infinite;
+        }
+
+        .typing span:nth-child(2) {
+            animation-delay: 0.15s;
+        }
+
+        .typing span:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+            }
+
+            30% {
+                transform: translateY(-5px);
+            }
+        }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 1100px) {
+            .container {
+                grid-template-columns: 1fr;
+
+                max-width: 760px;
+            }
+
+            .hero {
+                text-align: center;
+            }
+
+            .hero p {
+                margin: auto;
+            }
+
+            .chat-card {
+                height: 650px;
+            }
+
+            .side-panel {
+                display: grid;
+
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                width: 94%;
+
+                padding: 20px 0;
+            }
+
+            .hero h1 {
+                font-size: 55px;
+            }
+
+            .chat-card {
+                height: 620px;
+
+                border-radius: 22px;
+            }
+
+            .online {
+                padding: 7px 10px;
+            }
+
+            .online-dot {
+                width: 7px;
+                height: 7px;
+            }
+
+            .side-panel {
+                grid-template-columns: 1fr;
+            }
+
+            .message {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- LEFT -->
+        <section class="hero">
+
+            <div class="badge">
+                <span>✨</span>
+                AI-powered campus assistant
+            </div>
+
+            <h1>
+                Welcome<br>
+                to<br>
+                <span class="gradient-text">College Mate</span>
+            </h1>
+
+            <p>
+                Your intelligent college companion for classes,
+                faculty, exams, events, campus locations and
+                everyday student questions.
+            </p>
+
+        </section>
+
+
+        <!-- CHAT -->
+        <section class="chat-card">
+
+            <div class="chat-header">
+
+                <div class="assistant-info">
+
+                    <div class="bot-avatar">
+                        🤖
+                    </div>
+
+                    <div>
+                        <h2>College Mate</h2>
+                        <p>Your AI campus assistant</p>
+                    </div>
+
+                </div>
+
+                <div class="online">
+                    <div class="online-dot"></div>
+                    Online
+                </div>
+
+            </div>
+
+
+            <div class="messages" id="messages">
+
+                <div class="message bot-message">
+                    👋 Hi! I'm <strong>College Mate</strong>.<br><br>
+                    Ask me anything about your college —
+                    timetable, faculty, exams, events,
+                    campus locations and more.
+                </div>
+
+            </div>
+
+
+            <div class="typing" id="typing">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
+            <div class="quick-actions">
+
+                <button class="quick-btn"
+                    onclick="askQuick('What is happening today?')">
+                    📅 What's happening today?
+                </button>
+
+                <button class="quick-btn"
+                    onclick="askQuick('Where is the library?')">
+                    📚 Where is the library?
+                </button>
+
+                <button class="quick-btn"
+                    onclick="askQuick('Where can I chill?')">
+                    🛋️ Where can I chill?
+                </button>
+
+                <button class="quick-btn"
+                    onclick="askQuick('Who is the current HOD of CSE?')">
+                    👨‍🏫 CSE HOD
+                </button>
+
+            </div>
+
+
+            <div class="input-area">
+
+                <input
+                    id="questionInput"
+                    type="text"
+                    placeholder="Ask College Mate anything..."
+                    autocomplete="off"
+                >
+
+                <button id="sendButton" onclick="sendQuestion()">
+                    ➤
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- RIGHT -->
+        <aside class="side-panel">
+
+            <div class="quote-card">
+
+                <div class="quote-mark">
+                    "
+                </div>
+
+                <p>
+                    A place to learn, grow and belong.
+                </p>
+
+                <small>
+                    — College Mate
+                </small>
+
+            </div>
+
+
+            <div class="actions-card">
+
+                <div class="actions-title">
+                    <h3>Quick Actions</h3>
+                    <span>Explore</span>
+                </div>
+
+                <div class="actions-grid">
+
+                    <div class="action"
+                        onclick="askQuick('Show me the timetable information')">
+
+                        <div class="action-icon">🗓️</div>
+                        <span>Timetable</span>
+
+                    </div>
+
+
+                    <div class="action"
+                        onclick="askQuick('Tell me about the faculty')">
+
+                        <div class="action-icon">👨‍🏫</div>
+                        <span>Faculty</span>
+
+                    </div>
+
+
+                    <div class="action"
+                        onclick="askQuick('Tell me about exams')">
+
+                        <div class="action-icon">📝</div>
+                        <span>Exams</span>
+
+                    </div>
+
+
+                    <div class="action"
+                        onclick="askQuick('What are the important campus locations?')">
+
+                        <div class="action-icon">📍</div>
+                        <span>Campus</span>
+
+                    </div>
+
+
+                    <div class="action"
+                        onclick="askQuick('What is available in the cafeteria?')">
+
+                        <div class="action-icon">🍕</div>
+                        <span>Cafeteria</span>
+
+                    </div>
+
+
+                    <div class="action"
+                        onclick="askQuick('What upcoming events are there?')">
+
+                        <div class="action-icon">⭐</div>
+                        <span>Events</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+    </main>
+
+
+    <script>
+
+        const input = document.getElementById("questionInput");
+        const messages = document.getElementById("messages");
+        const typing = document.getElementById("typing");
+        const sendButton = document.getElementById("sendButton");
+
+
+        function addMessage(text, type) {
+
+            const message = document.createElement("div");
+
+            message.className =
+                "message " +
+                (type === "user"
+                    ? "user-message"
+                    : "bot-message");
+
+            message.innerHTML = text;
+
+            messages.appendChild(message);
+
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+
+        function askQuick(question) {
+
+            input.value = question;
+
+            sendQuestion();
+        }
+
+
+        async function sendQuestion() {
+
+            const question = input.value.trim();
+
+            if (!question) {
+                return;
+            }
+
+
+            addMessage(question, "user");
+
+            input.value = "";
+
+            sendButton.disabled = true;
+
+            typing.style.display = "block";
+
+            messages.scrollTop = messages.scrollHeight;
+
+
+            try {
+
+                const response = await fetch(
+                    window.location.origin + "/ask",
+                    {
+                        method: "POST",
+
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+
+                        body: JSON.stringify({
+                            question: question
+                        })
+                    }
+                );
+
+
+                const data = await response.json();
+
+
+                typing.style.display = "none";
+
+
+                if (data.answer) {
+
+                    addMessage(
+                        data.answer.replace(/\n/g, "<br>"),
+                        "bot"
+                    );
+
+                } else {
+
+                    addMessage(
+                        "Sorry, I couldn't find an answer.",
+                        "bot"
+                    );
+                }
+
+            } catch (error) {
+
+                typing.style.display = "none";
+
+                addMessage(
+                    "⚠️ I couldn't connect to the College Mate server. Please make sure the backend is running.",
+                    "bot"
+                );
+
+                console.error(error);
+
+            } finally {
+
+                sendButton.disabled = false;
+
+                input.focus();
+            }
+        }
+
+
+        input.addEventListener(
+            "keydown",
+            function(event) {
+
+                if (event.key === "Enter") {
+
+                    sendQuestion();
+
+                }
+
+            }
+        );
+
+    </script>
+
+</body>
+</html>
