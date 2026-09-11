@@ -3537,8 +3537,1684 @@ It must NOT be used by real students to determine actual
 college classes, faculty schedules, rooms, or attendance.
 
 ============================================================
-END OF COMPLETE SIMULATED TIMETABLE DATABASE
+COLLEGE MATE — SPORTS, ATHLETICS & EVENTS DATABASE
 ============================================================
+
+DATA STATUS:
+SIMULATED DEMO DATA — NOT OFFICIAL SJEC HISTORICAL RECORDS
+
+Purpose:
+This dataset is created for demonstrating the College Mate AI
+assistant's ability to answer questions about historical sports,
+athletics, technical competitions, hackathons, cultural events,
+and student achievements.
+
+The event results below are simulated examples created for the
+hackathon prototype. They should NOT be presented as official
+historical records of St Joseph Engineering College.
+
+For real deployment, these records should be replaced or verified
+using official college records.
+
+============================================================
+SECTION 1 — EVENT CATEGORIES
+============================================================
+
+College Mate can maintain records for:
+
+1. Athletics
+2. Cricket
+3. Football
+4. Basketball
+5. Volleyball
+6. Kabaddi
+7. Throwball
+8. Badminton
+9. Table Tennis
+10. Chess
+11. Weightlifting
+12. Wrestling
+13. Annual Sports Meet
+14. Inter-Class Sports
+15. Hackathons
+16. Coding Competitions
+17. Robotics Competitions
+18. Technical Competitions
+19. Innovation Competitions
+20. Project Competitions
+21. Cultural Events
+22. Quiz Competitions
+23. Debate Competitions
+24. Other Student Competitions
+
+============================================================
+SECTION 2 — BRANCHES / CLASSES USED IN DEMO DATA
+============================================================
+
+CSE = Computer Science and Engineering
+ISE = Information Science and Engineering
+ECE = Electronics and Communication Engineering
+EEE = Electrical and Electronics Engineering
+ME = Mechanical Engineering
+CIVIL = Civil Engineering
+ROBOTICS = Robotics and Automation
+
+Class format:
+1st Year A
+1st Year B
+2nd Year A
+2nd Year B
+3rd Year A
+3rd Year B
+4th Year A
+4th Year B
+
+Team names are also used for some competitions.
+
+============================================================
+SECTION 3 — 2018 SPORTS & EVENTS
+============================================================
+
+YEAR: 2018
+EVENT: Annual Inter-Class Cricket Championship
+CATEGORY: Cricket - Men
+WINNER: 4th Year Mechanical
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 4th Year ECE
+BEST PLAYER: Rahul M.
+FINAL RESULT: 4th Year Mechanical won the final
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2018
+EVENT: Inter-Class Football Championship
+CATEGORY: Football - Men
+WINNER: 3rd Year ECE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year Mechanical
+BEST PLAYER: Arjun K.
+FINAL RESULT: 3rd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2018
+EVENT: Inter-Class Volleyball Championship
+CATEGORY: Volleyball - Men
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 2nd Year ECE
+BEST PLAYER: Naveen R.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2018
+EVENT: Inter-Class Basketball Championship
+CATEGORY: Basketball - Men
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year EEE
+THIRD PLACE: 2nd Year ISE
+BEST PLAYER: Karthik P.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2018
+EVENT: Athletics - 100 Metres
+CATEGORY: Men
+WINNER: 4th Year EEE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year Mechanical
+WINNING TIME: 11.72 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2018
+EVENT: Athletics - Long Jump
+CATEGORY: Men
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ECE
+WINNING DISTANCE: 6.12 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2018
+EVENT: Inter-Class Chess Championship
+CATEGORY: Individual
+WINNER: 2nd Year ISE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 4th Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 4 — 2019 SPORTS & EVENTS
+============================================================
+
+YEAR: 2019
+EVENT: Inter-Class Cricket Championship
+CATEGORY: Cricket - Men
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year Mechanical
+THIRD PLACE: 2nd Year ECE
+BEST PLAYER: Aditya S.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2019
+EVENT: Inter-Class Football Championship
+CATEGORY: Football - Men
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year ISE
+THIRD PLACE: 2nd Year Mechanical
+BEST PLAYER: Rohit P.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2019
+EVENT: Volleyball Championship
+CATEGORY: Volleyball - Men
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year ECE
+THIRD PLACE: 2nd Year CSE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2019
+EVENT: Basketball Championship
+CATEGORY: Basketball - Men
+WINNER: 4th Year ECE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year ISE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2019
+EVENT: Athletics - 200 Metres
+CATEGORY: Men
+WINNER: 3rd Year EEE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year Mechanical
+WINNING TIME: 23.91 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2019
+EVENT: Athletics - 800 Metres
+CATEGORY: Men
+WINNER: 2nd Year Mechanical
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 4th Year ECE
+WINNING TIME: 2:08.40
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2019
+EVENT: Badminton Championship
+CATEGORY: Men's Singles
+WINNER: 4th Year ISE
+RUNNER-UP: 3rd Year ECE
+THIRD PLACE: 2nd Year CSE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2019
+EVENT: Coding Challenge
+CATEGORY: Technical
+WINNER: CSE CodeStorm
+RUNNER-UP: ISE Innovators
+THIRD PLACE: ECE ByteForce
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 5 — 2020 SPORTS & EVENTS
+============================================================
+
+YEAR: 2020
+EVENT: Inter-Class Cricket Championship
+CATEGORY: Cricket - Men
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2020
+EVENT: Football Championship
+CATEGORY: Football - Men
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 3rd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2020
+EVENT: Basketball Championship
+CATEGORY: Basketball
+WINNER: 4th Year ISE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year EEE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2020
+EVENT: Athletics - 100 Metres
+CATEGORY: Men
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year Mechanical
+THIRD PLACE: 2nd Year ECE
+WINNING TIME: 11.61 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2020
+EVENT: Athletics - 400 Metres
+CATEGORY: Men
+WINNER: 4th Year ECE
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 2nd Year CSE
+WINNING TIME: 53.20 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2020
+EVENT: Chess Championship
+CATEGORY: Individual
+WINNER: 3rd Year ISE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2020
+EVENT: Hackathon
+CATEGORY: Software Development
+WINNER: Team CodeForge
+RUNNER-UP: Team Tech Titans
+THIRD PLACE: Team Byte Builders
+PROJECT: Smart Campus Assistant
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 6 — 2021 SPORTS & EVENTS
+============================================================
+
+YEAR: 2021
+EVENT: Inter-Class Cricket Championship
+CATEGORY: Cricket
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ISE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2021
+EVENT: Football Championship
+CATEGORY: Football
+WINNER: 4th Year ECE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2021
+EVENT: Volleyball Championship
+CATEGORY: Volleyball
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year EEE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2021
+EVENT: Athletics - 100 Metres
+CATEGORY: Men
+WINNER: 4th Year Mechanical
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year EEE
+WINNING TIME: 11.55 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2021
+EVENT: Athletics - 1500 Metres
+CATEGORY: Men
+WINNER: 3rd Year EEE
+RUNNER-UP: 4th Year Mechanical
+THIRD PLACE: 2nd Year CSE
+WINNING TIME: 4:42.80
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2021
+EVENT: Robotics Challenge
+CATEGORY: Technical
+WINNER: Team RoboTech
+RUNNER-UP: Team MechaBots
+THIRD PLACE: Team Circuit Crew
+PROJECT: Autonomous Campus Robot
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 7 — 2022 SPORTS & EVENTS
+============================================================
+
+YEAR: 2022
+EVENT: Inter-Class Cricket Championship
+CATEGORY: Cricket
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year ISE
+THIRD PLACE: 4th Year Mechanical
+BEST PLAYER: Vikram S.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2022
+EVENT: Football Championship
+CATEGORY: Football
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year ECE
+THIRD PLACE: 2nd Year Mechanical
+BEST PLAYER: Sameer A.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2022
+EVENT: Basketball Championship
+CATEGORY: Basketball
+WINNER: 4th Year ECE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year ISE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2022
+EVENT: Kabaddi Championship
+CATEGORY: Kabaddi
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year EEE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2022
+EVENT: Athletics - 100 Metres
+CATEGORY: Men
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year Mechanical
+THIRD PLACE: 2nd Year ECE
+WINNING TIME: 11.48 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2022
+EVENT: Athletics - 400 Metres
+CATEGORY: Women
+WINNER: 3rd Year ECE
+RUNNER-UP: 2nd Year CSE
+THIRD PLACE: 4th Year ISE
+WINNING TIME: 1:04.30
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2022
+EVENT: Athletics - Long Jump
+CATEGORY: Women
+WINNER: 4th Year ISE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year ECE
+WINNING DISTANCE: 4.72 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2022
+EVENT: Hackathon
+CATEGORY: Artificial Intelligence
+WINNER: Team Neural Sparks
+RUNNER-UP: Team CodeCraft
+THIRD PLACE: Team Data Wizards
+PROJECT: AI Student Support System
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 8 — 2023 SPORTS & EVENTS
+============================================================
+
+YEAR: 2023
+EVENT: Cricket Championship
+CATEGORY: Cricket
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year ECE
+THIRD PLACE: 3rd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Football Championship
+CATEGORY: Football
+WINNER: 4th Year Mechanical
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 4th Year ISE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Volleyball Championship
+CATEGORY: Volleyball
+WINNER: 3rd Year ECE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Basketball Championship
+CATEGORY: Basketball
+WINNER: 3rd Year ISE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Badminton Championship
+CATEGORY: Men's Singles
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year ISE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Table Tennis Championship
+CATEGORY: Men's Singles
+WINNER: 3rd Year EEE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Athletics - 200 Metres
+CATEGORY: Men
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 2nd Year ECE
+WINNING TIME: 23.62 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Athletics - 800 Metres
+CATEGORY: Women
+WINNER: 3rd Year ECE
+RUNNER-UP: 4th Year ISE
+THIRD PLACE: 2nd Year CSE
+WINNING TIME: 2:31.50
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Robotics Competition
+CATEGORY: Robotics
+WINNER: Team RoboVision
+RUNNER-UP: Team MechaMind
+THIRD PLACE: Team AutoBots
+PROJECT: Autonomous Navigation Robot
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Hackathon
+CATEGORY: Full Stack Development
+WINNER: Team DevForce
+RUNNER-UP: Team Cloud Coders
+THIRD PLACE: Team Logic Labs
+PROJECT: Smart Campus Management Platform
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 9 — 2024 SPORTS & EVENTS
+============================================================
+
+YEAR: 2024
+EVENT: Inter-Class Cricket Championship
+CATEGORY: Cricket
+WINNER: 4th Year CSE-A
+RUNNER-UP: 3rd Year Mechanical-A
+THIRD PLACE: 4th Year ECE
+BEST PLAYER: Arjun S.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Inter-Class Football Championship
+CATEGORY: Football
+WINNER: 3rd Year CSE-A
+RUNNER-UP: 2nd Year ECE-A
+THIRD PLACE: 4th Year Mechanical
+FINAL SCORE: 3-1
+BEST PLAYER: Arjun Kumar
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Volleyball Championship
+CATEGORY: Volleyball
+WINNER: 4th Year ECE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year ISE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Basketball Championship
+CATEGORY: Basketball
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year ECE
+THIRD PLACE: 2nd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Kabaddi Championship
+CATEGORY: Kabaddi
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year EEE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Throwball Championship
+CATEGORY: Women
+WINNER: 3rd Year ECE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ISE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Athletics - 100 Metres
+CATEGORY: Men
+WINNER: 4th Year CSE-A
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 2nd Year ECE
+WINNING TIME: 11.31 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Athletics - 400 Metres
+CATEGORY: Men
+WINNER: 3rd Year EEE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year Mechanical
+WINNING TIME: 52.88 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Athletics - Long Jump
+CATEGORY: Men
+WINNER: 4th Year Mechanical
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year ECE
+WINNING DISTANCE: 6.38 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Athletics - Shot Put
+CATEGORY: Men
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year EEE
+THIRD PLACE: 2nd Year CSE
+WINNING DISTANCE: 10.84 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Chess Championship
+CATEGORY: Individual
+WINNER: 3rd Year ISE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Hackathon
+CATEGORY: Artificial Intelligence
+WINNER: Team AI Mavericks
+RUNNER-UP: Team CodeVerse
+THIRD PLACE: Team InnovateX
+PROJECT: AI-Based Student Assistant
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Coding Competition
+CATEGORY: Competitive Programming
+WINNER: Team Algorithm Kings
+RUNNER-UP: Team Debuggers
+THIRD PLACE: Team Runtime
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Innovation Challenge
+CATEGORY: Engineering Innovation
+WINNER: Team GreenTech
+RUNNER-UP: Team Smart Systems
+THIRD PLACE: Team FutureWorks
+PROJECT: Smart Energy Monitoring System
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 10 — 2025 SPORTS & EVENTS
+============================================================
+
+YEAR: 2025
+EVENT: Inter-Class Cricket Championship
+CATEGORY: Cricket
+WINNER: 3rd Year CSE-A
+RUNNER-UP: 4th Year Mechanical
+THIRD PLACE: 3rd Year ECE
+BEST PLAYER: Rohan P.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Football Championship
+CATEGORY: Football
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year ECE
+THIRD PLACE: 2nd Year Mechanical
+BEST PLAYER: Adithya R.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Basketball Championship
+CATEGORY: Basketball
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year ISE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Volleyball Championship
+CATEGORY: Volleyball
+WINNER: 4th Year ECE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Kabaddi Championship
+CATEGORY: Kabaddi
+WINNER: 4th Year Mechanical
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year EEE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Badminton Championship
+CATEGORY: Men's Singles
+WINNER: 3rd Year ISE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Table Tennis Championship
+CATEGORY: Men's Singles
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year ECE
+THIRD PLACE: 2nd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Athletics - 100 Metres
+CATEGORY: Men
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 2nd Year ECE
+WINNING TIME: 11.18 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Athletics - 200 Metres
+CATEGORY: Men
+WINNER: 3rd Year EEE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year Mechanical
+WINNING TIME: 23.41 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Athletics - 400 Metres
+CATEGORY: Women
+WINNER: 3rd Year ECE
+RUNNER-UP: 4th Year ISE
+THIRD PLACE: 2nd Year CSE
+WINNING TIME: 1:02.80
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Athletics - Long Jump
+CATEGORY: Men
+WINNER: 4th Year Mechanical
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year ECE
+WINNING DISTANCE: 6.51 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Athletics - High Jump
+CATEGORY: Men
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year EEE
+WINNING HEIGHT: 1.71 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Athletics - Shot Put
+CATEGORY: Men
+WINNER: 4th Year EEE
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 2nd Year CSE
+WINNING DISTANCE: 11.24 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Weightlifting Championship
+CATEGORY: Men
+WINNER: 4th Year Mechanical
+RUNNER-UP: 3rd Year ECE
+THIRD PLACE: 2nd Year CSE
+BEST LIFTER: Kiran M.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Hackathon
+CATEGORY: Generative AI
+WINNER: Team College Innovators
+RUNNER-UP: Team Neural Coders
+THIRD PLACE: Team AI Forge
+PROJECT: AI Campus Assistant
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Robotics Competition
+CATEGORY: Robotics
+WINNER: Team RoboMinds
+RUNNER-UP: Team Autonomous
+THIRD PLACE: Team MechaX
+PROJECT: Autonomous Delivery Robot
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Coding Competition
+CATEGORY: Programming
+WINNER: Team CSE Coders
+RUNNER-UP: Team LogicX
+THIRD PLACE: Team Byte Squad
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Project Exhibition
+CATEGORY: Engineering Projects
+WINNER: Team SmartGrid
+RUNNER-UP: Team HealthTech
+THIRD PLACE: Team AgriVision
+PROJECT: Smart Campus Energy System
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 11 — 2026 SPORTS & EVENTS
+============================================================
+
+YEAR: 2026
+EVENT: Inter-Class Cricket Championship
+CATEGORY: Cricket
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 4th Year ECE
+BEST PLAYER: Devraj K.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Football Championship
+CATEGORY: Football
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year ECE
+THIRD PLACE: 2nd Year Mechanical
+BEST PLAYER: Mohammed A.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Basketball Championship
+CATEGORY: Basketball
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year ISE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Volleyball Championship
+CATEGORY: Volleyball
+WINNER: 3rd Year ECE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Kabaddi Championship
+CATEGORY: Kabaddi
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year EEE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Badminton Championship
+CATEGORY: Men's Singles
+WINNER: 4th Year ISE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Table Tennis Championship
+CATEGORY: Men's Singles
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year ECE
+THIRD PLACE: 2nd Year Mechanical
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Chess Championship
+CATEGORY: Individual
+WINNER: 4th Year ISE
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year ECE
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Athletics - 100 Metres
+CATEGORY: Men
+WINNER: 3rd Year CSE
+RUNNER-UP: 4th Year Mechanical
+THIRD PLACE: 2nd Year ECE
+WINNING TIME: 11.09 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Athletics - 200 Metres
+CATEGORY: Men
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year EEE
+THIRD PLACE: 2nd Year Mechanical
+WINNING TIME: 23.17 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Athletics - 400 Metres
+CATEGORY: Men
+WINNER: 3rd Year EEE
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ECE
+WINNING TIME: 51.94 seconds
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Athletics - 800 Metres
+CATEGORY: Men
+WINNER: 4th Year Mechanical
+RUNNER-UP: 3rd Year CSE
+THIRD PLACE: 2nd Year EEE
+WINNING TIME: 2:04.90
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Athletics - Long Jump
+CATEGORY: Men
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year CSE
+THIRD PLACE: 2nd Year ECE
+WINNING DISTANCE: 6.63 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Athletics - High Jump
+CATEGORY: Men
+WINNER: 4th Year CSE
+RUNNER-UP: 3rd Year Mechanical
+THIRD PLACE: 2nd Year EEE
+WINNING HEIGHT: 1.76 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Athletics - Shot Put
+CATEGORY: Men
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year EEE
+THIRD PLACE: 2nd Year CSE
+WINNING DISTANCE: 11.63 metres
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Weightlifting Championship
+CATEGORY: Men
+WINNER: 3rd Year Mechanical
+RUNNER-UP: 4th Year EEE
+THIRD PLACE: 2nd Year CSE
+BEST LIFTER: Arjun M.
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Hackathon
+CATEGORY: Generative AI
+WINNER: Team CampusAI
+RUNNER-UP: Team Code Revolution
+THIRD PLACE: Team TechNova
+PROJECT: AI-Powered College Assistant
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Robotics Challenge
+CATEGORY: Robotics
+WINNER: Team RoboVision
+RUNNER-UP: Team MechaTech
+THIRD PLACE: Team AutoCore
+PROJECT: Smart Autonomous Campus Robot
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Coding Competition
+CATEGORY: Competitive Programming
+WINNER: Team AlgorithmX
+RUNNER-UP: Team CodeForce
+THIRD PLACE: Team Debug Squad
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Innovation Challenge
+CATEGORY: Innovation
+WINNER: Team FutureTech
+RUNNER-UP: Team Green Innovators
+THIRD PLACE: Team Smart Campus
+PROJECT: Intelligent Campus Management Platform
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: Project Exhibition
+CATEGORY: Engineering Innovation
+WINNER: Team CampusConnect
+RUNNER-UP: Team HealthTech
+THIRD PLACE: Team EcoSystems
+PROJECT: AI-Enabled Student Services Platform
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 12 — ATHLETICS EVENT TYPES
+============================================================
+
+The simulated College Mate database supports the following
+athletics events:
+
+TRACK EVENTS:
+100 Metres
+200 Metres
+400 Metres
+800 Metres
+1500 Metres
+4 x 100 Metres Relay
+4 x 400 Metres Relay
+
+FIELD EVENTS:
+Long Jump
+High Jump
+Shot Put
+Javelin Throw
+Discus Throw
+
+CATEGORIES:
+Men
+Women
+
+The system can answer questions about:
+- Winner
+- Runner-up
+- Third place
+- Winning time
+- Winning distance
+- Winning height
+- Year
+- Category
+- Class
+- Branch
+
+============================================================
+SECTION 13 — SPORTS CHAMPIONSHIP TYPES
+============================================================
+
+CRICKET
+Football
+Basketball
+Volleyball
+Kabaddi
+Throwball
+Badminton
+Table Tennis
+Chess
+Weightlifting
+Wrestling
+Athletics
+
+For each event, College Mate can retrieve:
+- Year
+- Event name
+- Category
+- Winner
+- Runner-up
+- Third place
+- Best player
+- Score where applicable
+- Performance record where applicable
+
+============================================================
+SECTION 14 — TECHNICAL EVENTS
+============================================================
+
+TECHNICAL COMPETITION CATEGORIES:
+
+Hackathon
+Coding Competition
+Robotics Competition
+Artificial Intelligence Competition
+Generative AI Competition
+Innovation Challenge
+Project Exhibition
+IoT Competition
+Web Development Competition
+App Development Competition
+Cybersecurity Competition
+Engineering Design Competition
+
+Example simulated records:
+
+YEAR: 2022
+EVENT: AI Hackathon
+WINNER: Team Neural Sparks
+PROJECT: AI Student Support System
+CATEGORY: Artificial Intelligence
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2023
+EVENT: Robotics Competition
+WINNER: Team RoboVision
+PROJECT: Autonomous Navigation Robot
+CATEGORY: Robotics
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2024
+EVENT: Full Stack Hackathon
+WINNER: Team DevForce
+PROJECT: Smart Campus Management Platform
+CATEGORY: Software Development
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2025
+EVENT: Generative AI Hackathon
+WINNER: Team College Innovators
+PROJECT: AI Campus Assistant
+CATEGORY: Generative AI
+DATA TYPE: SIMULATED DEMO DATA
+
+YEAR: 2026
+EVENT: College AI Hackathon
+WINNER: Team CampusAI
+PROJECT: AI-Powered College Assistant
+CATEGORY: Generative AI
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+SECTION 15 — SAMPLE QUESTIONS COLLEGE MATE SHOULD ANSWER
+============================================================
+
+Q: Who won cricket in 2024?
+
+A:
+According to the simulated demo database, 4th Year CSE-A
+won the 2024 Inter-Class Cricket Championship.
+
+Q: Who was the runner-up in football in 2024?
+
+A:
+According to the simulated demo database, 2nd Year ECE-A
+was the runner-up in the 2024 Inter-Class Football Championship.
+
+Q: Who won the 100 metre athletics event in 2025?
+
+A:
+According to the simulated demo database, 4th Year CSE won
+the 2025 Men's 100 Metres event with a simulated winning
+time of 11.18 seconds.
+
+Q: Which class won the most cricket championships?
+
+A:
+Based on the simulated records in the current demo database,
+4th Year CSE and 3rd Year CSE appear frequently among the
+winning teams. The result depends on the exact years and
+event records being compared.
+
+Q: Who won athletics in 2026?
+
+A:
+The answer depends on the specific athletics event.
+For example, the simulated 2026 Men's 100 Metres winner is
+3rd Year CSE, while the simulated 200 Metres winner is
+4th Year CSE.
+
+Q: Who won the 2026 long jump?
+
+A:
+According to the simulated demo database, 3rd Year Mechanical
+won the 2026 Men's Long Jump with a simulated distance of
+6.63 metres.
+
+Q: Who won the 2025 hackathon?
+
+A:
+According to the simulated demo database, Team College Innovators
+won the 2025 Generative AI Hackathon with the project
+"AI Campus Assistant."
+
+Q: Who won the 2026 robotics competition?
+
+A:
+According to the simulated demo database, Team RoboVision won
+the 2026 Robotics Challenge with the project
+"Smart Autonomous Campus Robot."
+
+Q: Who won the 2024 coding competition?
+
+A:
+According to the simulated demo database, Team Algorithm Kings
+won the 2024 Competitive Programming competition.
+
+Q: What was the winning time for the 2026 400 metres?
+
+A:
+According to the simulated demo database, the winner recorded
+a simulated time of 51.94 seconds.
+
+============================================================
+SECTION 16 — YEAR-WISE EVENT COVERAGE
+============================================================
+
+2018:
+Cricket
+Football
+Volleyball
+Basketball
+Athletics
+Chess
+
+2019:
+Cricket
+Football
+Volleyball
+Basketball
+Athletics
+Badminton
+Coding Competition
+
+2020:
+Cricket
+Football
+Basketball
+Athletics
+Chess
+Hackathon
+
+2021:
+Cricket
+Football
+Volleyball
+Athletics
+Robotics
+
+2022:
+Cricket
+Football
+Basketball
+Kabaddi
+Athletics
+Hackathon
+
+2023:
+Cricket
+Football
+Volleyball
+Basketball
+Badminton
+Table Tennis
+Athletics
+Robotics
+Hackathon
+
+2024:
+Cricket
+Football
+Volleyball
+Basketball
+Kabaddi
+Throwball
+Athletics
+Chess
+Hackathon
+Coding Competition
+Innovation Challenge
+
+2025:
+Cricket
+Football
+Basketball
+Volleyball
+Kabaddi
+Badminton
+Table Tennis
+Athletics
+Weightlifting
+Hackathon
+Robotics
+Coding Competition
+Project Exhibition
+
+2026:
+Cricket
+Football
+Basketball
+Volleyball
+Kabaddi
+Badminton
+Table Tennis
+Chess
+Athletics
+Weightlifting
+Hackathon
+Robotics
+Coding Competition
+Innovation Challenge
+Project Exhibition
+
+============================================================
+SECTION 17 — DEMO DATA DISCLAIMER
+============================================================
+
+IMPORTANT:
+
+The historical event results in this section are simulated
+demonstration records created for the College Mate hackathon
+prototype.
+
+They are NOT official historical records of St Joseph Engineering
+College unless separately marked as verified from an official
+college source.
+
+The purpose is to demonstrate how College Mate could answer
+historical questions after a college provides its complete
+sports and event database.
+
+For production deployment:
+
+1. Replace simulated results with official records.
+2. Verify winners with the sports department.
+3. Verify dates and event names.
+4. Verify student/team names.
+5. Verify scores and performance records.
+6. Add official event documents as sources.
+7. Maintain the date on which each record was verified.
+
+============================================================
+SECTION 18 — FUTURE SPORTS DATABASE CAPABILITY
+============================================================
+
+In a production version of College Mate, the sports database
+could be connected to official college records.
+
+Students could ask:
+
+"Who won football in 2024?"
+
+"Who won the 100 metres in 2025?"
+
+"Which branch won the most events?"
+
+"Who was the best athlete in 2026?"
+
+"Which class won cricket for three consecutive years?"
+
+"What was the winning time in the 400 metres?"
+
+"Who won the robotics competition in 2025?"
+
+"Which team won the hackathon?"
+
+"Show all CSE sports winners from 2018 to 2026."
+
+"Show all athletics winners between 2020 and 2026."
+
+"Which branch has the highest number of simulated wins?"
+
+"Show the winners of all technical competitions."
+
+"Who won the 2026 innovation challenge?"
+
+
+============================================================
+SENIOR STUDENT DAILY-USE DEMO DATABASE
+============================================================
+
+DATA STATUS:
+SIMULATED DEMO DATA — NOT OFFICIAL COLLEGE RECORDS
+
+This section demonstrates how College Mate can support
+2nd-year, 3rd-year and 4th-year students in their daily
+academic and campus activities.
+
+============================================================
+FINAL YEAR ACADEMIC INFORMATION
+============================================================
+
+YEAR: 2026
+BRANCH: CSE
+SEMESTER: 8
+SECTION: A
+
+PROJECT GUIDE:
+Dr. Ananya Rao
+Room: CSE Faculty Block - Room 204
+Availability: Monday and Wednesday, 2:00 PM - 4:00 PM
+DATA TYPE: SIMULATED DEMO DATA
+
+PROJECT PROPOSAL DEADLINE:
+15 January 2026
+
+PROJECT REVIEW 1:
+30 January 2026
+
+PROJECT REVIEW 2:
+20 February 2026
+
+PROJECT FINAL DEMONSTRATION:
+15 March 2026
+
+PROJECT REPORT SUBMISSION:
+20 March 2026
+
+PROJECT VIVA:
+25 March 2026
+
+============================================================
+PLACEMENT INFORMATION
+============================================================
+
+PLACEMENT ORIENTATION:
+Date: 10 January 2026
+Time: 10:00 AM
+Venue: Seminar Hall
+Eligibility: 3rd and 4th year students
+DATA TYPE: SIMULATED DEMO DATA
+
+APTITUDE TRAINING:
+Every Saturday
+Time: 9:00 AM - 12:00 PM
+Venue: Placement Training Hall
+
+MOCK INTERVIEW SESSION:
+Every second Friday
+Time: 2:00 PM - 5:00 PM
+Eligibility: Final-year students
+
+RESUME REVIEW:
+Monday to Friday
+Time: 3:00 PM - 5:00 PM
+Venue: Placement Cell
+
+============================================================
+SIMULATED COMPANY VISIT DATA
+============================================================
+
+COMPANY: TechNova Solutions
+DATE: 12 February 2026
+ROLE: Software Developer
+ELIGIBLE YEARS: 3rd and 4th Year
+ELIGIBLE BRANCHES: CSE, ISE, ECE
+SELECTION ROUNDS:
+1. Aptitude
+2. Coding Test
+3. Technical Interview
+4. HR Interview
+DATA TYPE: SIMULATED DEMO DATA
+
+COMPANY: CloudMatrix Technologies
+DATE: 20 February 2026
+ROLE: Cloud Engineer
+ELIGIBLE YEARS: 4th Year
+ELIGIBLE BRANCHES: CSE, ISE, ECE
+SELECTION ROUNDS:
+1. Online Assessment
+2. Technical Interview
+3. HR Interview
+DATA TYPE: SIMULATED DEMO DATA
+
+COMPANY: Innovate Systems
+DATE: 5 March 2026
+ROLE: Graduate Engineer
+ELIGIBLE YEARS: 4th Year
+ELIGIBLE BRANCHES: CSE, ECE, EEE, ME
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+INTERNSHIP INFORMATION
+============================================================
+
+INTERNSHIP APPLICATION SUPPORT:
+Available for 2nd, 3rd and 4th year students.
+
+INTERNSHIP DOCUMENTS:
+Resume
+College ID
+Bonafide Certificate
+Updated academic details
+Internship offer letter where applicable
+
+INTERNSHIP SUPPORT DESK:
+Placement Cell
+Working Hours: Monday-Friday, 9:30 AM - 4:30 PM
+DATA TYPE: SIMULATED DEMO DATA
+
+============================================================
+ACADEMIC DEADLINES
+============================================================
+
+INTERNAL ASSESSMENT REGISTRATION:
+Deadline: 5 February 2026
+
+ASSIGNMENT SUBMISSION:
+Deadline: 12 February 2026
+
+PROJECT REVIEW REGISTRATION:
+Deadline: 18 February 2026
+
+EXAM FEE PAYMENT:
+Deadline: 25 February 2026
+
+SEMESTER EXAM REGISTRATION:
+Deadline: 28 February 2026
+
+DATA TYPE:
+SIMULATED DEMO DATA
+
+============================================================
+CERTIFICATE SERVICES
+============================================================
+
+BONAFIDE CERTIFICATE:
+Required Documents:
+1. Student ID
+2. Application form
+3. Academic details
+
+Processing Location:
+Student Services Office
+
+SIMULATED WORKING HOURS:
+Monday-Friday
+9:30 AM - 4:30 PM
+
+TRANSCRIPT REQUEST:
+Submit application to Student Services Office.
+
+CONSOLIDATED MARKS CARD:
+Contact Examination Cell.
+
+PROVISIONAL CERTIFICATE:
+Contact Examination Cell after completion of required academic
+requirements.
+
+DATA TYPE:
+SIMULATED DEMO DATA
+
+============================================================
+FINAL YEAR GRADUATION CHECKLIST
+============================================================
+
+Before graduation, students should check:
+
+1. Academic requirements completed
+2. Project completed
+3. Project report submitted
+4. Library dues cleared
+5. Hostel dues cleared where applicable
+6. Examination requirements completed
+7. Required certificates collected
+8. Student records updated
+9. Placement-related formalities completed where applicable
+
+DATA TYPE:
+SIMULATED DEMO DATA
+
+============================================================
+STUDENT CLUB INFORMATION
+============================================================
+
+CODING CLUB:
+Activities:
+Competitive programming
+Coding workshops
+Hackathons
+Programming contests
+
+ROBOTICS CLUB:
+Activities:
+Robotics workshops
+Arduino projects
+Robot competitions
+Engineering projects
+
+AI CLUB:
+Activities:
+Machine learning workshops
+Generative AI sessions
+AI projects
+AI hackathons
+
+CULTURAL CLUB:
+Activities:
+Music
+Dance
+Drama
+Cultural events
+
+SPORTS CLUB:
+Activities:
+Inter-class tournaments
+Athletics
+Team sports
+Fitness activities
+
+DATA TYPE:
+SIMULATED DEMO DATA
+
+============================================================
+LAB INFORMATION
+============================================================
+
+AI LAB:
+Facilities:
+GPU-enabled demonstration systems
+Machine learning software
+AI development environment
+
+IOT LAB:
+Facilities:
+Microcontrollers
+Sensors
+IoT development kits
+
+ROBOTICS LAB:
+Facilities:
+Robotics kits
+Motors
+Sensors
+Control systems
+
+PROGRAMMING LAB:
+Facilities:
+C/C++
+Python
+Java
+Development environments
+
+DATA TYPE:
+SIMULATED DEMO DATA
+
+============================================================
+SENIOR STUDENT SAMPLE QUESTIONS
+============================================================
+
+Q: When is my final year project review?
+
+A:
+According to the simulated demo data, Project Review 1 is
+scheduled for 30 January 2026.
+
+Q: Where can I meet my project guide?
+
+A:
+The simulated project guide information says that the guide
+is available in CSE Faculty Block - Room 204 during the
+listed availability hours.
+
+Q: Which companies are visiting for placements?
+
+A:
+The simulated placement database currently lists TechNova
+Solutions, CloudMatrix Technologies and Innovate Systems.
+
+Q: Which branches are eligible for TechNova?
+
+A:
+According to the simulated data, CSE, ISE and ECE students
+are eligible.
+
+Q: How can I prepare for placements?
+
+A:
+The simulated placement information includes aptitude training,
+mock interviews and resume-review support.
+
+Q: What documents do I need for a bonafide certificate?
+
+A:
+The simulated service information lists Student ID,
+application form and academic details.
+
+Q: What should a final-year student complete before graduation?
+
+A:
+The simulated graduation checklist includes academic completion,
+project completion, report submission, clearing applicable dues,
+completing examination requirements and collecting required
+certificates.
+
+Q: What clubs can I join?
+
+A:
+The simulated database includes Coding, Robotics, AI, Cultural
+and Sports clubs.
+
+Q: What is happening this week?
+
+A:
+College Mate can retrieve upcoming events and notices from
+the available knowledge base.
+
+============================================================
+IMPORTANT DEMO RULE
+============================================================
+
+All information in this section is SIMULATED DEMO DATA.
+
+It is intended to demonstrate the type of information that
+College Mate could provide after integration with official
+college systems.
+
+It must not be represented as actual current college deadlines,
+company visits, faculty schedules, placement information,
+or official student-service procedures.
+
+For real deployment, this information should be supplied,
+verified and maintained by authorized college personnel.
+
+
+
+============================================================
+END OF SIMULATED SPORTS & EVENTS DATABASE
+============================================================
+
+
 
 ============================================================
 
